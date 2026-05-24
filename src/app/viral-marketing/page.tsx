@@ -93,8 +93,11 @@ export default function ViralMarketingPage() {
       const data = await res.json();
       if (data.imageUrl) {
         setImageUrl(data.imageUrl);
+      } else if (data.error) {
+        alert("Lỗi từ server: " + data.error);
       }
     } catch (error) {
+      alert("Đã có lỗi xảy ra khi tạo ảnh: " + String(error));
       console.error(error);
     } finally {
       setGeneratingImage(false);
