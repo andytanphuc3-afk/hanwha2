@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { Sparkles, Loader2, Copy, Check, Users } from 'lucide-react';
+import { Sparkles, Loader2, Copy, Check, Users, Image as ImageIcon } from 'lucide-react';
 
 const TARGET_CUSTOMERS = [
   "Lao động E9",
@@ -17,6 +17,8 @@ export default function ViralMarketingPage() {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState('');
   const [copied, setCopied] = useState(false);
+  const [imageUrl, setImageUrl] = useState<string | null>(null);
+  const [generatingImage, setGeneratingImage] = useState(false);
 
   const [formData, setFormData] = useState({
     product_info: '',
@@ -45,6 +47,7 @@ export default function ViralMarketingPage() {
     e.preventDefault();
     setLoading(true);
     setResult('');
+    setImageUrl(null);
     
     const payload = {
       ...formData,
@@ -75,6 +78,27 @@ export default function ViralMarketingPage() {
     navigator.clipboard.writeText(result);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleGenerateImage = async () => {
+    if (!result) return;
+    setGeneratingImage(true);
+    setImageUrl(null);
+    try {
+      const res = await fetch('/api/generate-image', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ content: result }),
+      });
+      const data = await res.json();
+      if (data.imageUrl) {
+        setImageUrl(data.imageUrl);
+      }
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setGeneratingImage(false);
+    }
   };
 
   return (
@@ -287,6 +311,46 @@ export default function ViralMarketingPage() {
                 ) : result ? (
                   <div style={{ color: '#1e293b', whiteSpace: 'pre-wrap', fontWeight: 500, fontSize: '1.05rem', lineHeight: 1.8 }}>
                     {result}
+                    
+                    {formData.content_type.includes('ảnh') && (
+                      <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid #e2e8f0', textAlign: 'center' }}>
+                        {!imageUrl ? (
+                          <button
+                            onClick={handleGenerateImage}
+                            disabled={generatingImage}
+                            style={{
+                              padding: '0.75rem 1.5rem', borderRadius: '0.75rem', fontWeight: 'bold', fontSize: '1rem',
+                              backgroundColor: 'white', color: 'var(--hanwha-orange)', border: '2px solid var(--hanwha-orange)',
+                              cursor: generatingImage ? 'not-allowed' : 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
+                              transition: 'all 0.2s', opacity: generatingImage ? 0.7 : 1
+                            }}
+                          >
+                            {generatingImage ? <><Loader2 size={18} className="animate-spin" /> Đang vẽ ảnh...</> : <><ImageIcon size={18} /> Tạo ảnh minh họa bằng AI</>}
+                          </button>
+                        ) : (
+                          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+                            <h3 style={{ fontSize: '1.125rem', fontWeight: 700, color: '#334155' }}>Ảnh minh họa của bạn:</h3>
+                            <img src={imageUrl} alt="AI Generated Illustration" style={{ maxWidth: '100%', borderRadius: '1rem', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.1)' }} />
+                            <div style={{ display: 'flex', gap: '1rem' }}>
+                              <a href={imageUrl} target="_blank" rel="noreferrer" style={{ textDecoration: 'none', padding: '0.5rem 1rem', backgroundColor: '#f1f5f9', color: '#475569', borderRadius: '0.5rem', fontWeight: 'bold', fontSize: '0.875rem' }}>
+                                Xem ảnh gốc
+                              </a>
+                              <button
+                                onClick={handleGenerateImage}
+                                disabled={generatingImage}
+                                style={{
+                                  padding: '0.5rem 1rem', borderRadius: '0.5rem', fontWeight: 'bold', fontSize: '0.875rem',
+                                  backgroundColor: 'white', color: 'var(--hanwha-orange)', border: '1px solid var(--hanwha-orange)',
+                                  cursor: generatingImage ? 'not-allowed' : 'pointer', transition: 'all 0.2s', opacity: generatingImage ? 0.7 : 1
+                                }}
+                              >
+                                {generatingImage ? 'Đang tạo lại...' : 'Tạo lại ảnh khác'}
+                              </button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <div style={{ height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: '#94a3b8', textAlign: 'center', padding: '2rem' }}>
