@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { VocabItem } from '@/lib/data';
-import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, ChevronLeft, ChevronRight, Languages, BookOpen, Sparkles } from 'lucide-react';
 
 export default function VocabularyClient({ initialVocab }: { initialVocab: VocabItem[] }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -47,8 +47,36 @@ export default function VocabularyClient({ initialVocab }: { initialVocab: Vocab
   return (
     <div className="container py-8" style={{ maxWidth: '1000px', margin: '0 auto' }}>
       
-      <div className="mb-6">
-        <h1 className="font-black text-3xl text-slate-900">Sổ Tay Từ Vựng</h1>
+      {/* Beautiful Banner */}
+      <div style={{
+        background: 'linear-gradient(135deg, var(--hanwha-orange) 0%, #ff8a4c 100%)',
+        borderRadius: '24px',
+        padding: '3rem 2.5rem',
+        marginBottom: '2.5rem',
+        color: 'white',
+        boxShadow: '0 20px 40px -10px rgba(243,112,33,0.3)',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '2rem',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        <div style={{ position: 'absolute', top: '-20px', right: '-20px', opacity: 0.1, transform: 'scale(2)' }}>
+          <BookOpen size={200} />
+        </div>
+        <div style={{ position: 'absolute', bottom: '20px', right: '150px', opacity: 0.2 }}>
+          <Sparkles size={60} />
+        </div>
+        
+        <div style={{ backgroundColor: 'white', padding: '1.5rem', borderRadius: '50%', color: 'var(--hanwha-orange)', flexShrink: 0, zIndex: 1, boxShadow: '0 10px 25px rgba(0,0,0,0.1)' }}>
+          <Languages size={48} />
+        </div>
+        <div style={{ zIndex: 1 }}>
+          <h1 className="font-black mb-3" style={{ fontSize: '2.5rem', letterSpacing: '-0.03em', textShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>Sổ Tay Từ Vựng Thông Minh</h1>
+          <p style={{ fontSize: '1.125rem', opacity: 0.9, maxWidth: '600px', lineHeight: 1.6, textShadow: '0 1px 2px rgba(0,0,0,0.1)' }}>
+            Nắm vững các thuật ngữ chuyên ngành bảo hiểm bằng công nghệ thẻ ghi nhớ (Flashcard). Học siêu tốc, nhớ thật lâu, tự tin vượt qua mọi kỳ thi!
+          </p>
+        </div>
       </div>
 
       {filteredVocab.length > 0 ? (
