@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Sparkles, Layers, BrainCircuit, Mail, Phone, MapPin, Heart } from "lucide-react";
+import { BookOpen, Sparkles, Layers, BrainCircuit, Mail, Phone, MapPin, Heart, User } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -63,17 +63,13 @@ export default function Footer() {
           <div>
             <h3 style={{ color: 'white', fontWeight: 800, fontSize: '1.25rem', marginBottom: '1.5rem' }}>Liên Hệ</h3>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-                <MapPin size={20} color="var(--hanwha-orange)" style={{ flexShrink: 0, marginTop: '0.25rem' }} />
-                <span>81-85 Hàm Nghi, Quận 1, TPHCM</span>
+              <li style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <User size={20} color="var(--hanwha-orange)" style={{ flexShrink: 0 }} />
+                <span className="font-bold">김민석</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <Phone size={20} color="var(--hanwha-orange)" style={{ flexShrink: 0 }} />
-                <span>1900 5555 22</span>
-              </li>
-              <li style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <Mail size={20} color="var(--hanwha-orange)" style={{ flexShrink: 0 }} />
-                <span>customer_service@hanwhalife.com.vn</span>
+                <span>010-6599-7807</span>
               </li>
             </ul>
           </div>
@@ -81,10 +77,10 @@ export default function Footer() {
 
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
           <p style={{ margin: 0, fontSize: '0.875rem' }}>
-            &copy; 2026 Hanwha Life Insurance. All rights reserved.
+            &copy; 2026 Kim Min Seok . All rights reserved.
           </p>
           <p style={{ margin: 0, fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            Made with <Heart size={14} color="#ef4444" fill="#ef4444" /> by Hanwha Tech Team
+            Made with <Heart size={14} color="#ef4444" fill="#ef4444" /> by 김민석
           </p>
         </div>
       </div>
