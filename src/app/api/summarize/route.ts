@@ -28,9 +28,16 @@ ${text}`;
         contents: prompt,
     });
 
-    return NextResponse.json({ summary: response.text });
+    let summaryText = '';
+    try {
+      summaryText = response.text;
+    } catch (e) {
+      summaryText = response.candidates?.[0]?.content?.parts?.[0]?.text || 'Nội dung tóm tắt bị chặn hoặc không thể tạo.';
+    }
+
+    return NextResponse.json({ summary: summaryText });
   } catch (error: any) {
     console.error('AI Error:', error);
-    return NextResponse.json({ error: 'Failed to generate summary' }, { status: 500 });
+    return NextResponse.json({ error: error.message || 'Failed to generate summary' }, { status: 500 });
   }
 }
