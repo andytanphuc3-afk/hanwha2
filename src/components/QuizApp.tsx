@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { ExamQuestion } from '@/lib/data';
-import { stripViText } from '@/lib/utils';
+import { stripViText, getFullAnswerKo, getFullAnswerVi } from '@/lib/utils';
 import { Timer, CheckCircle2, XCircle, AlertCircle, RefreshCw, Languages } from 'lucide-react';
 
 interface QuestionExtended extends ExamQuestion {
@@ -296,10 +296,10 @@ export default function QuizApp({ allQuestions }: { allQuestions: QuestionExtend
           {isInstant && hasAnswered && (
             <div style={{ padding: '1rem', borderRadius: '1rem', backgroundColor: 'var(--slate-50)', border: '1px solid var(--slate-200)', marginBottom: '2rem' }}>
               <div className="font-bold mb-2 text-slate-800">Giải thích đáp án:</div>
-              <div className="font-bold text-slate-700">{stripViText(q.answer, showVi)}</div>
-              {(showVi && q.answer_vi) && (
+              <div className="font-bold text-slate-700">{stripViText(getFullAnswerKo(q), showVi)}</div>
+              {(showVi && getFullAnswerVi(q)) && (
                 <div className="mt-2 font-bold" style={{ color: 'var(--hanwha-orange-hover)', backgroundColor: 'var(--hanwha-orange-light)', padding: '0.75rem', borderRadius: '0.5rem', border: '1px solid #f9d5c1' }}>
-                  {q.answer_vi}
+                  {getFullAnswerVi(q)}
                 </div>
               )}
             </div>
@@ -404,8 +404,8 @@ export default function QuizApp({ allQuestions }: { allQuestions: QuestionExtend
                       {!correct && (
                         <div>
                           <span className="font-bold" style={{ color: 'var(--slate-600)' }}>Đáp án đúng:</span>
-                          <span className="font-bold ml-2" style={{ color: '#10b981' }}>{stripViText(q.answer, showVi)}</span>
-                          {(showVi && q.answer_vi) && <div className="mt-1 font-bold" style={{ color: 'var(--hanwha-orange)', fontSize: '0.875rem' }}>{q.answer_vi}</div>}
+                          <span className="font-bold ml-2" style={{ color: '#10b981' }}>{stripViText(getFullAnswerKo(q), showVi)}</span>
+                          {(showVi && getFullAnswerVi(q)) && <div className="mt-1 font-bold" style={{ color: 'var(--hanwha-orange)', fontSize: '0.875rem' }}>{getFullAnswerVi(q)}</div>}
                         </div>
                       )}
                     </div>

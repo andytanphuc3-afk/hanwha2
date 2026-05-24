@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ExamQuestion } from "@/lib/data";
-import { stripViText } from "@/lib/utils";
+import { stripViText, getFullAnswerKo, getFullAnswerVi } from "@/lib/utils";
 import { CheckCircle2, XCircle } from "lucide-react";
 
 export default function QuizComponent({ exam_question, showVi }: { exam_question: ExamQuestion, showVi: boolean }) {
@@ -130,10 +130,10 @@ export default function QuizComponent({ exam_question, showVi }: { exam_question
           
           <div className="mt-4 pt-4 border-t border-slate-200">
             <div className="font-bold mb-2 text-slate-800">Giải thích đáp án:</div>
-            <div className="font-bold text-slate-700">{stripViText(exam_question.answer, showVi)}</div>
-            {showVi && exam_question.answer_vi && (
+            <div className="font-bold text-slate-700">{stripViText(getFullAnswerKo(exam_question), showVi)}</div>
+            {showVi && getFullAnswerVi(exam_question) && (
               <div className="text-orange mt-2 font-bold bg-orange-50 p-3 rounded-lg border border-orange-100">
-                {exam_question.answer_vi}
+                {getFullAnswerVi(exam_question)}
               </div>
             )}
           </div>
