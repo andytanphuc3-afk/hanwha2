@@ -279,3 +279,17 @@ a {
   background-color: var(--hanwha-orange);
   color: white;
 }
+
+/* Background Snake Animation */
+.snake-animation {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: snake-crawl 8s linear infinite;
+  opacity: 0.15;
+}
+
+@keyframes snake-crawl {
+  0% { stroke-dashoffset: 3000; }
+  50% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -3000; }
+}

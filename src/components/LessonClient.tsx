@@ -121,8 +121,25 @@ export default function LessonClient({ lesson, prevId, nextId }: { lesson: Lesso
   };
 
   return (
-    <div className="container py-8" style={{ maxWidth: '900px' }}>
-      {/* Header controls */}
+    <div style={{ position: 'relative', minHeight: '100vh' }}>
+      {/* Background Snake SVG */}
+      <svg 
+        style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', zIndex: -1, pointerEvents: 'none' }}
+        viewBox="0 0 1000 1000" 
+        preserveAspectRatio="none"
+      >
+        <path 
+          d="M-100,100 C200,300 800,-100 1100,200 C1200,400 800,600 500,600 C200,600 -100,900 200,1100 C500,1300 900,1000 1100,1100" 
+          fill="none" 
+          stroke="var(--hanwha-orange)" 
+          strokeWidth="60" 
+          strokeLinecap="round"
+          className="snake-animation"
+        />
+      </svg>
+      
+      <div className="container py-8" style={{ maxWidth: '900px', position: 'relative', zIndex: 1 }}>
+        {/* Header controls */}
       <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
         <Link 
           href="/courses" 
@@ -258,6 +275,7 @@ export default function LessonClient({ lesson, prevId, nextId }: { lesson: Lesso
             Bài tiếp theo &rarr;
           </Link>
         )}
+      </div>
       </div>
     </div>
   );
