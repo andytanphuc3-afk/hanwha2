@@ -24,8 +24,11 @@ export default function Navbar() {
 
   return (
     <nav style={{
-      backgroundColor: 'white',
-      borderBottom: '1px solid var(--slate-200)',
+      backgroundColor: 'rgba(255, 255, 255, 0.85)',
+      backdropFilter: 'blur(12px)',
+      WebkitBackdropFilter: 'blur(12px)',
+      borderBottom: '1px solid rgba(0, 0, 0, 0.05)',
+      boxShadow: '0 4px 30px rgba(0, 0, 0, 0.03)',
       position: 'sticky',
       top: 0,
       zIndex: 50,
