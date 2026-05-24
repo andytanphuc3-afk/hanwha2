@@ -41,7 +41,12 @@ QUY TẮC VIẾT
 Thông tin sản phẩm: ${product_info || 'Bảo hiểm Hanwha'}
 Nền tảng: ${platform || 'Facebook'}
 Loại content: ${content_type || 'Kể chuyện'}
-Độ dài: ${content_length || 'Vừa phải'}
+Độ dài mong muốn: ${content_length || 'Vừa phải'} 
+-> QUY ĐỊNH ĐỘ DÀI BẮT BUỘC: 
+${content_length?.includes('Rất ngắn') ? '- RẤT NGẮN: Tối đa 50 - 80 chữ. Cực kỳ súc tích, dồn dập, chỉ 2-3 câu.' :
+  content_length?.includes('Ngắn') ? '- NGẮN: Tối đa 150 chữ. Đi thẳng vào vấn đề, nhịp độ nhanh, 1-2 đoạn văn.' :
+  content_length?.includes('Vừa') ? '- VỪA PHẢI: Khoảng 300 - 400 chữ. Kể chuyện hoặc phân tích chi tiết vừa đủ, 3-4 đoạn.' :
+  '- DÀI: Khoảng 600 - 800 chữ. Phải có cốt truyện sâu sắc, dẫn dắt chi tiết, phân tích cặn kẽ, 5-7 đoạn văn.'}
 Phong cách: ${tone_style || 'Tự nhiên, chia sẻ'}
 Đối tượng khách hàng: ${target_customer || 'Người đi làm'}
 Mục tiêu: ${marketing_goal || 'Tăng tương tác'}
