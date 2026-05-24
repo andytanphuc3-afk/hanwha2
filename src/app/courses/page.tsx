@@ -14,7 +14,7 @@ export default function CoursesPage() {
 
       <div className="grid grid-cols-2 gap-6">
         {courseData.lessons.map((lesson) => (
-          <Link href={`/courses/${lesson.id}`} key={lesson.id} className="card flex flex-col justify-between" style={{ cursor: 'pointer' }}>
+          <Link href={`/courses/${lesson.id}`} key={lesson.id} className="card lesson-card-hover flex flex-col justify-between" style={{ cursor: 'pointer' }}>
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <BookOpen size={20} className="text-orange" />

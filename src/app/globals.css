@@ -249,3 +249,33 @@ a {
   padding-left: 1.5rem;
   color: var(--slate-700);
 }
+
+/* Lesson Card Hover Effects */
+@keyframes shake-vibrate {
+  0%, 100% { transform: translateX(0) rotate(0); }
+  20% { transform: translateX(-2px) rotate(-1deg); }
+  40% { transform: translateX(2px) rotate(1deg); }
+  60% { transform: translateX(-2px) rotate(-1deg); }
+  80% { transform: translateX(2px) rotate(1deg); }
+}
+
+.lesson-card-hover {
+  transition: all 0.3s ease;
+  border: 2px solid var(--slate-800);
+}
+
+.lesson-card-hover:hover {
+  animation: shake-vibrate 0.4s ease-in-out;
+  border-color: var(--hanwha-orange);
+  background-color: #fff9f5;
+  box-shadow: 0 15px 30px -5px rgba(243, 112, 33, 0.2);
+}
+
+.lesson-card-hover:hover h2 {
+  color: var(--hanwha-orange-hover);
+}
+
+.lesson-card-hover:hover .btn-outline {
+  background-color: var(--hanwha-orange);
+  color: white;
+}
