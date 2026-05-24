@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpen, Layers, Sparkles, ArrowRight } from "lucide-react";
+import { BookOpen, Layers, Sparkles, ArrowRight, CheckSquare } from "lucide-react";
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
             <p className="text-slate mt-4 text-xl font-medium">Bộ công cụ hỗ trợ tối đa cho đại lý và chuyên viên tư vấn bảo hiểm.</p>
           </div>
 
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-4 gap-8">
             {/* Feature 1 */}
             <div className="card text-center flex flex-col items-center hover-scale" style={{ border: 'none', boxShadow: 'var(--shadow-md)', transition: 'transform 0.3s ease' }}>
               <div style={{ backgroundColor: 'var(--hanwha-orange-light)', padding: '1.5rem', borderRadius: '24px', color: 'var(--hanwha-orange)', marginBottom: '1.5rem' }}>
@@ -72,6 +72,15 @@ export default function Home() {
               </div>
               <h3 className="font-black mb-3" style={{ fontSize: '1.75rem', color: 'var(--slate-800)' }}>Sổ Tay Flashcard</h3>
               <p className="text-slate font-medium text-lg">Hệ thống ôn tập từ vựng chuẩn Quizlet với thẻ lật thông minh và danh sách từ chi tiết.</p>
+            </div>
+
+            {/* Feature 4 */}
+            <div className="card text-center flex flex-col items-center hover-scale" style={{ border: 'none', boxShadow: 'var(--shadow-md)', transition: 'transform 0.3s ease' }}>
+              <div style={{ backgroundColor: 'var(--hanwha-orange-light)', padding: '1.5rem', borderRadius: '24px', color: 'var(--hanwha-orange)', marginBottom: '1.5rem' }}>
+                <CheckSquare size={48} strokeWidth={1.5} />
+              </div>
+              <h3 className="font-black mb-3" style={{ fontSize: '1.75rem', color: 'var(--slate-800)' }}>Luyện Thi Trắc Nghiệm</h3>
+              <p className="text-slate font-medium text-lg">Hệ thống thi thử với cấu trúc đề thi thực tế, có giải thích đáp án chi tiết giúp nhớ sâu.</p>
             </div>
           </div>
         </div>
