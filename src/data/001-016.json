@@ -1,0 +1,833 @@
+{
+  "title": "2026 생명보험이란 무엇인가 - Essential Questions",
+  "title_vi": "Cẩm nang Bảo hiểm Nhân thọ 2026: Giải mã bộ câu hỏi trọng tâm",
+  "chapter": "제1편 보험이론 및 윤리",
+  "chapter_vi": "Phần 1: Lý thuyết và Đạo đức Bảo hiểm",
+  "lessons": [
+    {
+      "id": "001",
+      "title": "생명보험의 역사(해외)",
+      "title_vi": "Lịch sử Bảo hiểm Nhân thọ (Nước ngoài)",
+      "content": {
+        "근간": {
+          "ko": "상부상조 + 아이디스(독) = 일인만인 만인일인",
+          "vi": "Nền tảng: Tinh thần tương trợ lẫn nhau + Idis (Đức) = 'một người vì mọi người, mọi người vì một người'"
+        },
+        "시대별_역사": [
+          {
+            "시대": "고대 (Cổ đại)",
+            "내용_ko": "에리노이: 종교적 공제단체 / 콜레가이: 상호부조 조합",
+            "내용_vi": "Eranoi: Tổ chức quỹ tương trợ mang tính tôn giáo / Collegia: Hội tương trợ lẫn nhau"
+          },
+          {
+            "시대": "중세 (Trung đại)",
+            "내용_ko": "길드: 동업자간 상호부조 조합 / 톤틴연금(프랑스): 유자금 국가 대여+종신연금 수령 / 파스칼: 생존율 / 헬리: 사망표(파생활용)",
+            "내용_vi": "Guild: Hội tương trợ giữa các đồng nghiệp / Lương hưu Tontine (Pháp): Cho nhà nước vay tiền + nhận lương hưu trọn đời / Pascal: Tỷ lệ sống sót / Halley: Bảng tử vong (ứng dụng phái sinh)"
+          },
+          {
+            "시대": "근대 (Cận đại)",
+            "내용_ko": "에퀴터블: 세계 최초 생명보험회사(영국) / 영국(1762) → 프랑스 → 미국(1810) → 독일 → 일본 順",
+            "내용_vi": "Equitable: Công ty bảo hiểm nhân thọ đầu tiên thế giới (Anh) / Thứ tự: Anh (1762) → Pháp → Mỹ (1810) → Đức → Nhật"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 표의 (가), (나)에 공통으로 들어갈 내용으로 알맞은 것은?",
+        "question_vi": "Nội dung nào phù hợp điền vào ô (가) và (나) trong bảng dưới đây?",
+        "context_ko": "생명보험은 (가) 정신을 바탕으로 사망 등 불의의 사고로 인한 경제적 손실을 보전하기 위해 계약자들로부터 받은 보험료를 재원으로 사고를 당한 사람에게 약정한 보험금을 지급한다. / (나) 정신이 근간이 되며, '일인은 만인을 위하여, 만인은 일인을 위하여'라는 말이 인용되고 있다.",
+        "context_vi": "Bảo hiểm nhân thọ dựa trên tinh thần (가), dùng phí bảo hiểm thu từ các bên tham gia hợp đồng để bồi thường cho người gặp tai nạn do tử vong hoặc rủi ro bất ngờ. / Tinh thần (나) là nền tảng, câu nói 'một người vì mọi người, mọi người vì một người' được trích dẫn.",
+        "options": ["① 상부상조 (Tương trợ lẫn nhau)", "② 실사구시 (Thực sự cầu thị)", "③ 홍익인간 (Hồng ích nhân gian - Mưu cầu phúc lợi cho mọi người)"],
+        "answer": "① 상부상조",
+        "answer_vi": "① Tương trợ lẫn nhau"
+      }
+    },
+    {
+      "id": "002",
+      "title": "생명보험의 역사(우리나라)",
+      "title_vi": "Lịch sử Bảo hiểm Nhân thọ (Hàn Quốc)",
+      "content": {
+        "근원": {
+          "계_ko": "삼한시대 시작, 조선시대(친목도모, 관혼상제 부담 경감)",
+          "계_vi": "Hội 'Gye': Bắt đầu từ thời Tam Hàn, thời Joseon dùng để thân mật và chia sẻ chi phí lễ nghi",
+          "보_ko": "신라시대 시작, 고려시대 크게 발전",
+          "보_vi": "Hội 'Bo': Bắt đầu từ thời Silla, phát triển mạnh vào thời Goryeo"
+        },
+        "연대별_역사": [
+          {
+            "연도": "1876년",
+            "내용_ko": "강화도조약 이후 일본 보소사 대리점 설치(1891년, 부산)로 도입",
+            "내용_vi": "Sau Hiệp ước Ganghwa, đại lý bảo hiểm Nhật Bản được thành lập (1891, Busan) - khởi đầu bảo hiểm hiện đại"
+          },
+          {
+            "연도": "1921년",
+            "내용_ko": "우리나라 최초 보소사 조선생명보험주식회사",
+            "내용_vi": "Công ty bảo hiểm nhân thọ đầu tiên của Hàn Quốc: Joseon Life Insurance Co., Ltd."
+          },
+          {
+            "연도": "1960년대",
+            "내용_ko": "국민저축기관, 단체보험",
+            "내용_vi": "Cơ quan tiết kiệm quốc gia, bảo hiểm nhóm"
+          },
+          {
+            "연도": "1970년대",
+            "내용_ko": "개인보험, 1977년 보험의 해",
+            "내용_vi": "Bảo hiểm cá nhân, năm 1977 được tuyên bố là 'Năm Bảo hiểm'"
+          },
+          {
+            "연도": "1990년대",
+            "내용_ko": "보험시장 개방, 금융자유화, IMF 생보사 구조조정(4개사 허가 취소)",
+            "내용_vi": "Mở cửa thị trường bảo hiểm, tự do hóa tài chính, tái cơ cấu công ty bảo hiểm nhân thọ thời IMF (hủy giấy phép 4 công ty)"
+          },
+          {
+            "연도": "2000년대",
+            "내용_ko": "2003년 방카슈랑스, 2013년 인터넷전문보소사",
+            "내용_vi": "2003: Bancassurance (bán bảo hiểm qua ngân hàng), 2013: Công ty bảo hiểm trực tuyến chuyên dụng"
+          },
+          {
+            "연도": "2020년대",
+            "내용_ko": "2021년 '금융소비자보호법' 시행",
+            "내용_vi": "2021: Ban hành 'Luật Bảo vệ Người tiêu dùng Tài chính'"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 우리나라 생명보험의 역사에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về lịch sử bảo hiểm nhân thọ Hàn Quốc?",
+        "options": [
+          "① '계'는 여러 사람이 돈이나 곡식 등을 추렴하여 소수의 사람에게 모아줌으로써 경제적인 지원을 해주는 제도이다.",
+          "② 1960년대는 경제성장에 힘입어 보험시장도 개인보험 위주로 전환되었다.",
+          "③ 1921년에 우리나라 최초의 생명보험회사인 '조선생명보험주식회사'가 설립되었다."
+        ],
+        "options_vi": [
+          "① 'Gye' là chế độ nhiều người góp tiền hoặc lúa gạo để hỗ trợ kinh tế cho một số người.",
+          "② Những năm 1960, nhờ tăng trưởng kinh tế, thị trường bảo hiểm chuyển sang bảo hiểm cá nhân.",
+          "③ Năm 1921, công ty bảo hiểm nhân thọ đầu tiên 'Joseon Life Insurance' được thành lập."
+        ],
+        "answer": "② (1960년대는 개인보험 아닌 국민저축·단체보험 중심이었음)",
+        "answer_vi": "② SAI - Thập niên 1960 tập trung vào tiết kiệm quốc gia và bảo hiểm nhóm, chưa phải bảo hiểm cá nhân"
+      }
+    },
+    {
+      "id": "003",
+      "title": "사회보장제도와 생명보험의 필요성, 생명보험산업 현황·자산",
+      "title_vi": "Hệ thống An sinh Xã hội và Sự cần thiết của Bảo hiểm Nhân thọ, Hiện trạng Ngành & Tài sản",
+      "content": {
+        "사회보장제도_생명보험_필요성": [
+          {
+            "항목_ko": "급속한 노령화(7%↑, 14%↑, 20%↑) / 2024년 초고령사회 진입",
+            "항목_vi": "Già hóa dân số nhanh chóng (7%↑=Xã hội già hóa, 14%↑=Xã hội già, 20%↑=Siêu già hóa) / 2024: Hàn Quốc bước vào xã hội siêu già hóa"
+          },
+          {
+            "항목_ko": "부족한 노후준비(국민연금 명목소득대체율 43%) / 사회보장제도(사회보험, 사회서비스, 공공부조) / 개인 만족수준 미달",
+            "항목_vi": "Chuẩn bị hưu trí chưa đủ (tỷ lệ thay thế thu nhập danh nghĩa của BHXH là 43%) / Hệ thống an sinh xã hội (bảo hiểm xã hội, dịch vụ xã hội, trợ cấp công) / Chưa đạt mức độ thỏa mãn cá nhân"
+          },
+          {
+            "항목_ko": "3층 보장제도(사회보장, 기업보장, 개인보장)",
+            "항목_vi": "Hệ thống bảo đảm 3 tầng: Bảo đảm xã hội + Bảo đảm doanh nghiệp + Bảo đảm cá nhân"
+          },
+          {
+            "항목_ko": "사회보험과 민영보험은 상호보완과 경쟁이라는 양면성",
+            "항목_vi": "Bảo hiểm xã hội và bảo hiểm tư nhân vừa bổ sung, vừa cạnh tranh nhau"
+          }
+        ],
+        "생명보험_산업현황_자산": [
+          {
+            "항목_ko": "2024년 한국 보험시장 수입보험료 기준 세계 9위",
+            "항목_vi": "Năm 2024, thị trường bảo hiểm Hàn Quốc đứng thứ 9 thế giới về phí bảo hiểm thu được"
+          },
+          {
+            "항목_ko": "생명보험자산(장기자금, 신탁재산, 공공적 성격)",
+            "항목_vi": "Tài sản bảo hiểm nhân thọ: vốn dài hạn, tài sản ủy thác, mang tính công ích"
+          },
+          {
+            "항목_ko": "운용원칙('보험업법'): 안정성, 유동성, 수익성, 공공성",
+            "항목_vi": "Nguyên tắc vận hành (Luật Kinh doanh Bảo hiểm): An toàn, Thanh khoản, Sinh lời, Tính công ích"
+          },
+          {
+            "항목_ko": "운용현황(유가증권 > 대출채권 > 현금과 예치금)",
+            "항목_vi": "Hiện trạng vận hành: Chứng khoán > Khoản cho vay > Tiền mặt & Tiền gửi"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 사회보험과 민영보험에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về bảo hiểm xã hội và bảo hiểm tư nhân?",
+        "options": [
+          "① 사회보험은 정부에 의해 기금의 투자방법이 결정된다.",
+          "② 민영보험의 운영차지는 개인별 적정성에 있다.",
+          "③ 사회보험은 임의보험이다."
+        ],
+        "options_vi": [
+          "① Bảo hiểm xã hội do chính phủ quyết định phương thức đầu tư quỹ.",
+          "② Mục đích hoạt động của bảo hiểm tư nhân là đảm bảo phù hợp với từng cá nhân.",
+          "③ Bảo hiểm xã hội là bảo hiểm tự nguyện."
+        ],
+        "answer": "③",
+        "answer_vi": "③ SAI - Bảo hiểm xã hội là bảo hiểm BẮT BUỘC, không phải tự nguyện"
+      }
+    },
+    {
+      "id": "004",
+      "title": "재무설계",
+      "title_vi": "Lập kế hoạch Tài chính (Financial Planning)",
+      "content": {
+        "필요성": [
+          {
+            "항목_ko": "생애 소비만족 극대화",
+            "항목_vi": "Tối đa hóa mức độ thỏa mãn tiêu dùng trong suốt cuộc đời"
+          },
+          {
+            "항목_ko": "미래 리스크 대비(물가, 실업, 질병, 장수)",
+            "항목_vi": "Chuẩn bị cho rủi ro tương lai: lạm phát, thất nghiệp, bệnh tật, sống lâu"
+          },
+          {
+            "항목_ko": "사회경제적 환경변화 대응 → 가계 금융자산 증가 예상, 금융상품 다양화(출시↑), 고령사회 진입",
+            "항목_vi": "Ứng phó biến đổi môi trường kinh tế - xã hội: tài sản tài chính hộ gia đình dự kiến tăng, sản phẩm tài chính đa dạng hóa, bước vào xã hội già hóa"
+          },
+          {
+            "항목_ko": "소득흐름과 소비흐름 불일치: 이전(사회초년기) → 잉여소득(중년기) → 이월(노년기)",
+            "항목_vi": "Sự không khớp giữa dòng thu nhập và dòng tiêu dùng: Giai đoạn đầu (thâm hụt) → Trung niên (thặng dư) → Tuổi già (chuyển tiếp)"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 재무설계가 필요한 요인에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về các yếu tố cần lập kế hoạch tài chính?",
+        "options": [
+          "① '자본시장과 금융투자업에 관한 법률'이 시행됨에 따라 금융업종 간의 구분이 분명해지고 있어 최적의 투자자산이 비교적 쉽다.",
+          "② 우리나라 가계자산은 부동산 등 실물자산에 대한 투자비중이 높다.",
+          "③ 가계 자산구조가 한 분야에 편중되면 경제상황 변동에 따른 위험이 높고 유동성이 낮다."
+        ],
+        "options_vi": [
+          "① Sau khi ban hành 'Luật Thị trường vốn và Kinh doanh đầu tư tài chính', ranh giới giữa các ngành tài chính ngày càng rõ ràng, dễ tìm tài sản đầu tư tối ưu.",
+          "② Tài sản hộ gia đình Hàn Quốc có tỷ trọng đầu tư vào tài sản thực (bất động sản) cao.",
+          "③ Nếu cơ cấu tài sản gia đình tập trung vào một lĩnh vực, rủi ro khi tình hình kinh tế biến động cao và thanh khoản thấp."
+        ],
+        "answer": "①",
+        "answer_vi": "① SAI - Luật này khiến ranh giới giữa các ngành tài chính trở nên MỜ NHẠT hơn (hội tụ tài chính), không phải rõ ràng hơn"
+      }
+    },
+    {
+      "id": "005",
+      "title": "생명보험의 3가지 기본원리",
+      "title_vi": "3 Nguyên lý Cơ bản của Bảo hiểm Nhân thọ",
+      "content": {
+        "원리": [
+          {
+            "이름_ko": "대수의 법칙 (주사위)",
+            "이름_vi": "Luật số lớn (Law of Large Numbers)",
+            "설명_ko": "관찰 횟수 늘려 대략적인 발생확률 수치화 / 단체 가입자 수가 많을수록 보험단체의 안정성 높아짐",
+            "설명_vi": "Tăng số lần quan sát để định lượng xác suất xảy ra sự kiện / Càng nhiều người tham gia, tính ổn định của nhóm bảo hiểm càng cao"
+          },
+          {
+            "이름_ko": "수지상등의 원칙",
+            "이름_vi": "Nguyên tắc cân bằng thu chi",
+            "설명_ko": "납입보험료 총액 = 지급 보험금 + 지출비용의 총액",
+            "설명_vi": "Tổng phí bảo hiểm thu vào = Tổng tiền bảo hiểm chi trả + Tổng chi phí vận hành"
+          },
+          {
+            "이름_ko": "사망률과 생명표",
+            "이름_vi": "Tỷ lệ tử vong và Bảng sự sống (Life Table)",
+            "설명_ko": "사망률 = (1년간 사망자수 ÷ 연초의 생존자수) / 1986년부터 경험생명표 사용, 2024년 4월부터 제10회 경험생명표 적용",
+            "설명_vi": "Tỷ lệ tử vong = (số người chết trong 1 năm ÷ số người sống đầu năm) / Từ 1986 dùng bảng sự sống kinh nghiệm, từ tháng 4/2024 áp dụng bảng kinh nghiệm lần thứ 10"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 보기의 ( ) 안에 들어갈 말이 바르게 나열된 것은?",
+        "question_vi": "Điền vào chỗ trống theo thứ tự đúng?",
+        "context_ko": "생명보험의 보험료는 보험사고 발생에 대한 공평한 위험분담을 위해 (가) 을/를 기초로 작성된 (나) 와/과 (다) 등에 의해 합리적으로 산출한다.",
+        "context_vi": "Phí bảo hiểm nhân thọ được tính toán hợp lý dựa trên (나) và (다) được lập từ cơ sở (가) để phân chia rủi ro công bằng khi xảy ra sự cố bảo hiểm.",
+        "options": [
+          "① (가) 대수의 법칙, (나) 생명표, (다) 수지상등의 원칙",
+          "② (가) 수지상등의 원칙, (나) 생명표, (다) 대수의 법칙",
+          "③ (가) 수지상등의 원칙, (나) 대수의 법칙, (다) 생명표"
+        ],
+        "options_vi": [
+          "① (가) Luật số lớn, (나) Bảng sự sống, (다) Nguyên tắc cân bằng thu chi",
+          "② (가) Nguyên tắc cân bằng thu chi, (나) Bảng sự sống, (다) Luật số lớn",
+          "③ (가) Nguyên tắc cân bằng thu chi, (나) Luật số lớn, (다) Bảng sự sống"
+        ],
+        "answer": "①",
+        "answer_vi": "① Luật số lớn → Bảng sự sống → Nguyên tắc cân bằng thu chi"
+      }
+    },
+    {
+      "id": "006",
+      "title": "보험계약 관계자",
+      "title_vi": "Các bên liên quan trong Hợp đồng Bảo hiểm",
+      "content": {
+        "관계자": [
+          {
+            "명칭_ko": "보험계약자",
+            "명칭_vi": "Bên tham gia hợp đồng (Policyholder)",
+            "설명_ko": "보험료 납입의무자, 1명 이상 다수 가능 / 만 19세 미만자: 친권자, 법정대리인의 동의 必",
+            "설명_vi": "Người có nghĩa vụ đóng phí, có thể 1 người hoặc nhiều người / Dưới 19 tuổi: cần có sự đồng ý của người có quyền giám hộ hoặc người đại diện pháp lý"
+          },
+          {
+            "명칭_ko": "피보험자",
+            "명칭_vi": "Người được bảo hiểm (Insured)",
+            "설명_ko": "보험사고 대상자, 1명 이상 다수 가능 / 보험계약자 자신 또는 타인 피보험자도 가능 / 타인의 사망을 보험사고로 하는 보험계약 → 반드시 그 타인의 서면동의(또는 전자서명) 必",
+            "설명_vi": "Đối tượng của sự cố bảo hiểm, có thể 1 người hoặc nhiều người / Có thể là chính bên tham gia hoặc người khác / Nếu hợp đồng lấy cái chết của người khác làm sự cố bảo hiểm → BẮT BUỘC phải có sự đồng ý bằng văn bản (hoặc chữ ký điện tử) của người đó"
+          },
+          {
+            "명칭_ko": "보험수익자",
+            "명칭_vi": "Người thụ hưởng bảo hiểm (Beneficiary)",
+            "설명_ko": "보험금 청구권자, 인원수나 자격에는 제한 없음",
+            "설명_vi": "Người có quyền yêu cầu bồi thường, không giới hạn số lượng hay tư cách"
+          },
+          {
+            "명칭_ko": "보험회사",
+            "명칭_vi": "Công ty bảo hiểm (Insurer)",
+            "설명_ko": "보험금 지급 책임자 / 보험회사의 사업영위 조건 → 금융위원회의 허가",
+            "설명_vi": "Bên chịu trách nhiệm chi trả bảo hiểm / Điều kiện hoạt động kinh doanh → phải được Ủy ban Dịch vụ Tài chính cấp phép"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 피보험자에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về người được bảo hiểm?",
+        "options": [
+          "① 피보험자 수는 1인 또는 2인 이상으로 제한이 없다.",
+          "② 보험계약자는 반드시 피보험자이어야 한다.",
+          "③ 타인의 사망을 보험사고로 하는 보험계약의 경우 계약체결을 위해서는 반드시 그 타인의 서면동의(또는 전자서명)를 받아야 하는 등 제한이 있다."
+        ],
+        "options_vi": [
+          "① Số người được bảo hiểm không giới hạn, có thể 1 người hoặc 2 người trở lên.",
+          "② Bên tham gia hợp đồng bắt buộc phải là người được bảo hiểm.",
+          "③ Nếu hợp đồng lấy cái chết của người khác làm sự cố, bắt buộc phải có sự đồng ý bằng văn bản của người đó."
+        ],
+        "answer": "②",
+        "answer_vi": "② SAI - Bên tham gia hợp đồng KHÔNG nhất thiết phải là người được bảo hiểm; có thể là hai người khác nhau"
+      }
+    },
+    {
+      "id": "007",
+      "title": "생명보험계약 내용",
+      "title_vi": "Nội dung Hợp đồng Bảo hiểm Nhân thọ",
+      "content": {
+        "용어": [
+          {
+            "용어_ko": "보험사고",
+            "용어_vi": "Sự cố bảo hiểm (Insured Event)",
+            "설명_ko": "보험회사가 보험금 지급을 약속한 사고(= 보험금 지급사유)",
+            "설명_vi": "Sự cố mà công ty bảo hiểm cam kết chi trả tiền bồi thường (= lý do chi trả bảo hiểm)"
+          },
+          {
+            "용어_ko": "보험기간",
+            "용어_vi": "Thời hạn bảo hiểm (Policy Period)",
+            "설명_ko": "위험을 보장받는 기간(= 위험기간, 책임기간)",
+            "설명_vi": "Khoảng thời gian được bảo vệ trước rủi ro (= thời hạn rủi ro, thời hạn trách nhiệm)"
+          },
+          {
+            "용어_ko": "보험료 납입기간",
+            "용어_vi": "Kỳ đóng phí bảo hiểm (Premium Payment Period)",
+            "설명_ko": "보험계약자가 보험료를 납입하는 기간 / 보험기간과 항상 일치하는 것은 아님: 전기납(보험기간=납입기간), 단기납(보험기간>납입기간), 일시납",
+            "설명_vi": "Khoảng thời gian bên tham gia đóng phí / Không nhất thiết trùng với thời hạn bảo hiểm: Đóng đủ kỳ (bằng thời hạn BH), Đóng ngắn hạn (ngắn hơn thời hạn BH), Đóng một lần"
+          },
+          {
+            "용어_ko": "보험금액",
+            "용어_vi": "Số tiền bảo hiểm (Sum Assured)",
+            "설명_ko": "보험사고 발생시 보험회사가 지급해야 하는 액수",
+            "설명_vi": "Số tiền công ty bảo hiểm phải chi trả khi xảy ra sự cố bảo hiểm"
+          },
+          {
+            "용어_ko": "보험료",
+            "용어_vi": "Phí bảo hiểm (Premium)",
+            "설명_ko": "보험계약자가 보험회사에게 지불하는 금액(매년 1회 납입이 원칙)",
+            "설명_vi": "Số tiền bên tham gia hợp đồng trả cho công ty bảo hiểm (nguyên tắc đóng 1 lần/năm)"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 보험용어의 의미가 다른 하나는 무엇인가?",
+        "question_vi": "Trong các thuật ngữ bảo hiểm sau, thuật ngữ nào có ý nghĩa KHÁC với các thuật ngữ còn lại?",
+        "options": ["① 보험기간", "② 위험기간", "③ 납입기간"],
+        "options_vi": ["① Thời hạn bảo hiểm", "② Thời hạn rủi ro", "③ Kỳ đóng phí"],
+        "answer": "③",
+        "answer_vi": "③ Kỳ đóng phí - Đây là thời gian đóng tiền, còn ① và ② đều là thời gian được bảo vệ (có thể khác nhau)"
+      }
+    },
+    {
+      "id": "008",
+      "title": "보험료 산출",
+      "title_vi": "Tính toán Phí Bảo hiểm",
+      "content": {
+        "방식": [
+          {
+            "명칭_ko": "3이원방식",
+            "명칭_vi": "Phương pháp 3 yếu tố cơ bản (Net Premium Method)",
+            "설명_ko": "표준기초율(예정위험률, 예정이율, 예정사업비율)을 기초로 보험료 산출",
+            "설명_vi": "Tính phí dựa trên tỷ lệ cơ sở tiêu chuẩn: tỷ lệ rủi ro dự kiến + lãi suất dự kiến + tỷ lệ chi phí kinh doanh dự kiến"
+          },
+          {
+            "명칭_ko": "현금흐름방식",
+            "명칭_vi": "Phương pháp dòng tiền (Cash Flow Method)",
+            "설명_ko": "3이원방식의 가격요소 + 계약유지율, 판매량, 투자수익률 등 / 2013년부터 본격 도입",
+            "설명_vi": "Yếu tố giá của phương pháp 3 yếu tố + tỷ lệ duy trì hợp đồng, doanh số bán, tỷ suất lợi nhuận đầu tư / Áp dụng chính thức từ 2013"
+          }
+        ],
+        "비교표": {
+          "구분": ["가정", "장점", "단점"],
+          "3이원방식": {
+            "가정_vi": "Giả định theo tiêu chuẩn (bảo thủ)",
+            "장점_vi": "Tính phí tương đối đơn giản",
+            "단점_vi": "Khó tính phí chính xác"
+          },
+          "현금흐름방식": {
+            "가정_vi": "Giả định tối ưu theo từng công ty",
+            "장점_vi": "Áp dụng yếu tố giá mới, tính phí chính xác, nâng cao tính tự chủ phát triển sản phẩm",
+            "단점_vi": "Phương pháp tính phức tạp, chi phí hệ thống máy tính cao"
+          }
+        }
+      },
+      "exam_question": {
+        "question_ko": "다음 중 보험료의 산출방식에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về phương pháp tính phí bảo hiểm?",
+        "options": [
+          "① 현금흐름방식은 기존 3이원방식의 가격요소를 포함한다.",
+          "③ 3이원방식을 통해 보험회사는 상품개발의 자율성을 제고할 수 있다.",
+          "③ 현금흐름방식은 회사별 최적가정을 적용한다."
+        ],
+        "options_vi": [
+          "① Phương pháp dòng tiền bao gồm các yếu tố giá của phương pháp 3 yếu tố.",
+          "② Qua phương pháp 3 yếu tố, công ty bảo hiểm có thể nâng cao tính tự chủ phát triển sản phẩm.",
+          "③ Phương pháp dòng tiền áp dụng giả định tối ưu theo từng công ty."
+        ],
+        "answer": "②",
+        "answer_vi": "② SAI - Phương pháp dòng tiền mới là phương pháp nâng cao tính tự chủ phát triển sản phẩm, không phải phương pháp 3 yếu tố"
+      }
+    },
+    {
+      "id": "009",
+      "title": "계약자 배당",
+      "title_vi": "Cổ tức cho Người tham gia Hợp đồng (Policyholder Dividend)",
+      "content": {
+        "배당제도": [
+          {
+            "항목_ko": "보험회사별 배당률 다름(2000년 4월부터 자유화) / 2002년 3월부터 선지급 후배당 체계 / '보험업감독규정'에서 정하는 기준에 따름",
+            "항목_vi": "Tỷ lệ cổ tức khác nhau theo từng công ty (tự do hóa từ tháng 4/2000) / Từ tháng 3/2002: hệ thống trả trước - chia cổ tức sau / Theo tiêu chuẩn quy định trong 'Quy định giám sát bảo hiểm'"
+          },
+          {
+            "항목_ko": "장래 이익배당 또는 잉여금 분배에 대한 예상에 관한 사항은 보험인내자료에 기재금지",
+            "항목_vi": "Thông tin về dự kiến chia cổ tức tương lai hoặc phân phối thặng dư KHÔNG được ghi vào tài liệu dành cho người tham gia bảo hiểm"
+          },
+          {
+            "항목_ko": "금융위원회가 예외로 인정하는 경우: 계약자배당이 있는 연금보험은 직전 5개년도 실적을 근거로 장래의 계약자배당 예시 허용",
+            "항목_vi": "Ngoại lệ do Ủy ban Dịch vụ Tài chính công nhận: Bảo hiểm hưu trí có cổ tức được phép hiển thị dự kiến cổ tức tương lai dựa trên kết quả 5 năm trước"
+          },
+          {
+            "항목_ko": "배당금 지급방법: ① 현금지급, ② 보험료 상계, ③ 보험금 또는 보험료의 제한금 지급시 가산, ④ 연금보험에 대한 배당금 지급",
+            "항목_vi": "Phương thức trả cổ tức: ① Trả tiền mặt, ② Khấu trừ phí bảo hiểm, ③ Cộng thêm khi chi trả tiền bảo hiểm hoặc phí bảo hiểm theo giới hạn, ④ Trả cổ tức cho bảo hiểm hưu trí"
+          },
+          {
+            "항목_ko": "무배당상품이 유배당상품에 비해 보험료 저렴",
+            "항목_vi": "Sản phẩm không chia cổ tức có phí bảo hiểm rẻ hơn sản phẩm có chia cổ tức"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 배당에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về cổ tức bảo hiểm?",
+        "options": [
+          "① 모든 보험회사가 같은 배당률을 적용하는 것은 아니다.",
+          "② '상법'에 근거하여 배당률을 적용하는 것으로 본다.",
+          "③ 사전에 배당재원을 적립한 회사에 한하여 계약자배당을 실시한다."
+        ],
+        "options_vi": [
+          "① Không phải tất cả công ty bảo hiểm đều áp dụng cùng tỷ lệ cổ tức.",
+          "② Tỷ lệ cổ tức được áp dụng dựa trên 'Luật Thương mại'.",
+          "③ Chỉ những công ty đã tích lũy nguồn cổ tức trước mới thực hiện chia cổ tức cho người tham gia."
+        ],
+        "answer": "②",
+        "answer_vi": "② SAI - Tỷ lệ cổ tức dựa trên 'Quy định giám sát bảo hiểm', không phải 'Luật Thương mại'"
+      }
+    },
+    {
+      "id": "010",
+      "title": "보험계약의 성립, 청약",
+      "title_vi": "Thành lập và Đề nghị Hợp đồng Bảo hiểm",
+      "content": {
+        "성립": [
+          {
+            "항목_ko": "계약자의 청약과 보험회사의 승낙으로 계약 성립 / 청약시 원칙적으로 특별한 방식이 요구되지 않음",
+            "항목_vi": "Hợp đồng thành lập khi có đề nghị của bên tham gia và chấp thuận của công ty bảo hiểm / Về nguyên tắc, không yêu cầu hình thức đặc biệt khi đề nghị"
+          },
+          {
+            "항목_ko": "보험회사의 계약인수 심사 및 승낙 (청약 거절 또는 보험가입금액 제한, 일부 보장제외, 보험료 삭감, 보험료 활증 등을 붙여 승낙할 수 있음)",
+            "항목_vi": "Công ty bảo hiểm thẩm định và chấp thuận hợp đồng (có thể từ chối hoặc chấp thuận kèm điều kiện: giới hạn số tiền bảo hiểm, loại trừ một số bảo đảm, giảm tiền BH, tăng phí BH...)"
+          },
+          {
+            "항목_ko": "약관, 청약서 교부 및 중요한 내용 설명 / 전자우편 및 전자적 의사표시로 제공한 경우 수신하였을 때 교부한 것으로 봄 / 통신판매계약은 전화를 이용하여 질문·설명하고 답변과 확인 내용을 음성 녹음하여 설명 가능",
+            "항목_vi": "Giao điều khoản, đơn đề nghị và giải thích nội dung quan trọng / Cung cấp qua email hoặc phương tiện điện tử được coi là đã giao khi người nhận nhận được / Hợp đồng bán qua điện thoại: có thể hỏi - giải thích - ghi âm giọng nói để thay thế"
+          }
+        ],
+        "단체보험_특징_ko": "동일한 단체에 소속된 계약자나 피보험자 5인 이상 + 납입주기, 납입일 동일하게 또는 동일상품 구입 → 보험료 할인(계약관리 편리성으로 예정사업비 할인)",
+        "단체보험_특징_vi": "Từ 5 người tham gia/được bảo hiểm cùng tổ chức + cùng kỳ đóng phí, ngày đóng phí hoặc mua cùng sản phẩm → giảm phí bảo hiểm (giảm chi phí kinh doanh dự kiến nhờ dễ quản lý hợp đồng)"
+      },
+      "exam_question": {
+        "question_ko": "다음 표의 ( ) 안에 들어갈 말로 알맞지 않은 것은?",
+        "question_vi": "Từ nào KHÔNG phù hợp điền vào chỗ trống?",
+        "context_ko": "보험회사는 인수하고자 하는 위험대상(피보험자)의 위험정도에 따라 청약을 거절하거나, ( )을/를 붙여 계약을 승낙할 수도 있다.",
+        "context_vi": "Công ty bảo hiểm có thể từ chối đề nghị hoặc chấp thuận hợp đồng kèm theo ( ) tùy theo mức độ rủi ro của đối tượng (người được bảo hiểm).",
+        "options": ["① 일부 보장 추가", "② 보험료 할증", "③ 보험금 삭감"],
+        "options_vi": ["① Bổ sung một phần bảo đảm", "② Tăng phí bảo hiểm", "③ Giảm tiền bảo hiểm"],
+        "answer": "①",
+        "answer_vi": "① KHÔNG phù hợp - Khi rủi ro cao, công ty sẽ LOẠI BỎ một phần bảo đảm (보장제외), không phải BỔ SUNG thêm"
+      }
+    },
+    {
+      "id": "011",
+      "title": "청약철회",
+      "title_vi": "Rút lại Đề nghị Hợp đồng (Cooling-off Period / Right of Withdrawal)",
+      "content": {
+        "청약철회_가능기간": {
+          "ko": "보험증권을 받은 후 15일 이내 (청약일로부터 30일 이내) ※ 청약 당일도 철회 가능",
+          "vi": "Trong vòng 15 ngày kể từ khi nhận được giấy chứng nhận bảo hiểm (trong vòng 30 ngày kể từ ngày đề nghị) ※ Có thể rút lại ngay trong ngày đề nghị"
+        },
+        "청약철회_방법": {
+          "ko": "기납보험료 반환(접수일로부터 3영업일 이내) / 신용카드로 납한 경우 접수일로부터 3영업일 이내 신용카드 회사로 대금청구를 하지 않도록 해야 함",
+          "vi": "Hoàn trả phí bảo hiểm đã nộp (trong vòng 3 ngày làm việc kể từ ngày tiếp nhận) / Nếu đóng bằng thẻ tín dụng: trong 3 ngày làm việc phải thông báo cho công ty thẻ hủy yêu cầu thanh toán"
+        },
+        "청약철회_불가_계약": [
+          {
+            "ko": "진단계약, 전문금융소비자가 체결한 계약",
+            "vi": "Hợp đồng có khám sức khỏe, hợp đồng do người tiêu dùng tài chính chuyên nghiệp ký kết"
+          },
+          {
+            "ko": "보험기간이 90일 이내인 계약",
+            "vi": "Hợp đồng có thời hạn bảo hiểm dưới 90 ngày"
+          },
+          {
+            "ko": "'자동차손해배상 보장법'에 따른 책임보험, 제자 동의가 필요한 보험계약",
+            "vi": "Bảo hiểm trách nhiệm theo 'Luật Bảo đảm bồi thường thiệt hại ô tô', hợp đồng cần sự đồng ý của bên thứ ba"
+          }
+        ],
+        "전문금융소비자_ko": "국가, 한국은행, 금융회사, 주권상장법인, 지방자치단체 등",
+        "전문금융소비자_vi": "Nhà nước, Ngân hàng Hàn Quốc, Công ty tài chính, Công ty niêm yết cổ phiếu, Chính quyền địa phương, v.v.",
+        "특이사항_ko": "청약일로부터 30일 이내면 보험증권을 받지 않아도 청약철회 가능",
+        "특이사항_vi": "Nếu trong vòng 30 ngày kể từ ngày đề nghị, vẫn có thể rút lại dù chưa nhận được giấy chứng nhận bảo hiểm"
+      },
+      "exam_question": {
+        "question_ko": "다음 중 청약철회가 불가능한 경우에 해당하지 않는 것은?",
+        "question_vi": "Trường hợp nào KHÔNG thuộc diện không thể rút lại đề nghị?",
+        "options": [
+          "① 보험증권을 받은 날로부터 10일, 청약일로부터 20일이 지난 보험계약",
+          "② 보험기간이 60일 이내인 계약",
+          "③ 계약체결 전에 소비자의 건강상태 진단을 지원하는 보장성 보험계약"
+        ],
+        "options_vi": [
+          "① Hợp đồng đã qua 10 ngày kể từ khi nhận giấy chứng nhận và 20 ngày kể từ ngày đề nghị.",
+          "② Hợp đồng có thời hạn bảo hiểm dưới 60 ngày.",
+          "③ Hợp đồng bảo hiểm hỗ trợ khám sức khỏe người tiêu dùng trước khi ký hợp đồng."
+        ],
+        "answer": "①",
+        "answer_vi": "① KHÔNG thuộc diện không thể rút lại - Điều kiện là 15 ngày từ khi nhận giấy CN VÀ 30 ngày từ ngày đề nghị, chưa hết 2 điều kiện này thì vẫn có thể rút"
+      }
+    },
+    {
+      "id": "012",
+      "title": "청약의 승낙 및 거절",
+      "title_vi": "Chấp thuận và Từ chối Đề nghị Hợp đồng",
+      "content": {
+        "청약의_승낙": [
+          {
+            "항목_ko": "1회 보험료를 받은 무진단계약은 청약일로부터 30일 이내, 진단계약은 진단일로부터 30일 이내에 승낙여부를 통지해야 함",
+            "항목_vi": "Hợp đồng không khám sau khi nhận phí đầu tiên: phải thông báo chấp thuận/từ chối trong 30 ngày từ ngày đề nghị. Hợp đồng có khám: 30 ngày từ ngày khám"
+          },
+          {
+            "항목_ko": "통지 없을 경우 승낙한 것으로 간주",
+            "항목_vi": "Nếu không thông báo thì được coi là đã chấp thuận"
+          },
+          {
+            "항목_ko": "승낙시 보험증권 교부 (보험의 목적, 보험사고의 성질, 보험금액, 보험료와 지급방법, 보험기간, 피보험자 및 수익자의 정보 등 기재)",
+            "항목_vi": "Khi chấp thuận: cấp giấy chứng nhận bảo hiểm (ghi rõ đối tượng BH, tính chất sự cố, số tiền BH, phí và phương thức thanh toán, thời hạn BH, thông tin người được BH và người thụ hưởng)"
+          }
+        ],
+        "청약의_거절": [
+          {
+            "항목_ko": "청약 거절통지 후 보험료 반환 / 보험료를 받은 기간에 대해 '평균공시이율+1%'를 연단위 복리로 계산한 금액을 받은 보험료에 더하여 지급",
+            "항목_vi": "Sau khi thông báo từ chối: hoàn trả phí bảo hiểm / Cộng thêm lãi suất 'lãi suất công bố bình quân + 1%' tính theo lãi kép hàng năm cho khoảng thời gian đã giữ phí"
+          },
+          {
+            "항목_ko": "신용카드로 제회 보험료를 납입한 경우 → 매출건 취소(이자 지급 없음)",
+            "항목_vi": "Nếu phí đầu tiên đóng bằng thẻ tín dụng → hủy giao dịch (không trả lãi)"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 보험계약의 청약에 대한 설명으로 틀린 것은?",
+        "question_vi": "Đâu là mô tả SAI về đề nghị hợp đồng bảo hiểm?",
+        "options": [
+          "① 계약자에게 약관 및 청약서 부본을 교부하고 약관의 중요한 내용을 설명하여야 한다.",
+          "② 제1회 보험료를 받은 무진단계약은 청약일로부터 60일 이내에 승낙 또는 거절하여야 한다.",
+          "③ 청약을 거절한 경우 보험료를 받은 기간에 대해 '평균공시이율+1%'를 연단위 복리로 계산한 금액을 받은 보험로에 더하여 지급한다."
+        ],
+        "options_vi": [
+          "① Phải giao điều khoản và bản sao đơn đề nghị cho bên tham gia và giải thích nội dung quan trọng.",
+          "② Hợp đồng không khám sau khi nhận phí đầu tiên phải chấp thuận hoặc từ chối trong 60 ngày.",
+          "③ Khi từ chối, phải hoàn trả phí cộng thêm lãi 'lãi suất bình quân + 1%' lãi kép hàng năm."
+        ],
+        "answer": "②",
+        "answer_vi": "② SAI - Thời hạn là 30 ngày, không phải 60 ngày"
+      }
+    },
+    {
+      "id": "013",
+      "title": "보험계약의 효력",
+      "title_vi": "Hiệu lực của Hợp đồng Bảo hiểm",
+      "content": {
+        "보장_개시일": {
+          "원칙_ko": "제1회 보험료 받은 때부터",
+          "원칙_vi": "Bắt đầu từ khi nhận phí bảo hiểm đầu tiên",
+          "상세": [
+            {
+              "유형_ko": "무진단계약",
+              "유형_vi": "Hợp đồng không khám sức khỏe",
+              "시작일_ko": "제1회 보험료 납입일(=보험계약일), 청약의 승낙여부와 관계 없음",
+              "시작일_vi": "Ngày đóng phí đầu tiên (= ngày ký hợp đồng), không phụ thuộc vào việc chấp thuận hay chưa"
+            },
+            {
+              "유형_ko": "진단계약",
+              "유형_vi": "Hợp đồng có khám sức khỏe",
+              "시작일_ko": "제1회 보험료 납입과 건강진단이 모두 완료된 시점부터 보장 개시",
+              "시작일_vi": "Bảo đảm bắt đầu khi cả hai điều kiện hoàn thành: đóng phí đầu tiên VÀ hoàn thành khám sức khỏe"
+            },
+            {
+              "유형_ko": "자동이체 및 신용카드로 납입하는 경우",
+              "유형_vi": "Thanh toán qua ghi nợ tự động hoặc thẻ tín dụng",
+              "시작일_ko": "제1회 보험료 받은 때: 자동이체 신청 및 신용카드 매출승인에 필요한 정보를 제공한 때",
+              "시작일_vi": "Thời điểm nhận phí đầu tiên: khi cung cấp thông tin cần thiết để đăng ký ghi nợ tự động hoặc để công ty thẻ phê duyệt"
+            }
+          ]
+        },
+        "승낙_전_보험사고_보장": {
+          "ko": "제1회 보험료를 받고 승낙 전에 보험사고 발생시 보장",
+          "vi": "Vẫn được bảo đảm nếu sự cố xảy ra trước khi chấp thuận nhưng sau khi đã nhận phí đầu tiên"
+        },
+        "승낙_전_보험사고_보장_예외": [
+          {
+            "ko": "회사에 알린 내용 또는 건강진단 내용이 보험금 지급사유 발생에 영향이 있음을 회사가 증명",
+            "vi": "Công ty chứng minh rằng thông tin đã khai báo hoặc kết quả khám ảnh hưởng đến việc xảy ra sự cố"
+          },
+          {
+            "ko": "계약자 또는 피보험자의 계약 전 알릴 의무 위반",
+            "vi": "Bên tham gia hoặc người được BH vi phạm nghĩa vụ khai báo trước hợp đồng"
+          },
+          {
+            "ko": "진단계약에서 진단을 받지 않은 경우",
+            "vi": "Hợp đồng có khám nhưng chưa hoàn thành khám sức khỏe"
+          },
+          {
+            "ko": "한도액 초과 청약 후 승낙 전 보험금 지급사유 발생시 → 초과 청약액은 보장되지 않음",
+            "vi": "Sự cố xảy ra trước khi chấp thuận với hợp đồng vượt quá hạn mức → Phần vượt hạn mức không được bảo đảm"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 보기의 진단계약에서 보장개시일에 해당하는 것은?",
+        "question_vi": "Trong hợp đồng có khám dưới đây, ngày bắt đầu bảo đảm là ngày nào?",
+        "context": {
+          "청약일": "9/2일",
+          "제1회_보험료_납입일": "9/3일",
+          "건강진단일": "9/4일",
+          "승낙일": "9/5일"
+        },
+        "options": ["① 9/3일", "② 9/4일", "③ 9/5일"],
+        "options_vi": ["① 3/9", "② 4/9", "③ 5/9"],
+        "answer": "② 9/4일",
+        "answer_vi": "② 4/9 - Vì hợp đồng có khám, bảo đảm bắt đầu khi cả hai điều kiện hoàn thành: đóng phí (3/9) VÀ khám sức khỏe (4/9) → ngày muộn hơn là 4/9"
+      }
+    },
+    {
+      "id": "014",
+      "title": "계약의 무효",
+      "title_vi": "Vô hiệu Hợp đồng Bảo hiểm",
+      "content": {
+        "정의_ko": "보험계약이 성립한 때부터 그 효력이 발생하지 않는 것 ※ 무효시 이미 납입한 보험료 반환",
+        "정의_vi": "Hợp đồng không có hiệu lực kể từ thời điểm thành lập ※ Khi vô hiệu: hoàn trả phí bảo hiểm đã nộp",
+        "무효_사유": [
+          {
+            "번호": "①",
+            "ko": "타인의 사망을 보험금 지급사유로 하는 보험계약 체결시 피보험자의 서면동의가 없는 경우",
+            "vi": "Ký hợp đồng lấy cái chết của người khác làm lý do chi trả mà không có sự đồng ý bằng văn bản của người được BH"
+          },
+          {
+            "번호": "②",
+            "ko": "만 15세 미만자, 심신상실자, 심신박약자를 피보험자로 하여 사망을 보험금 지급사유로 한 계약 ※ 보험계약을 체결하거나 단체보험의 피보험자가 될 때에 의사능력이 있는 심신박약자의 경우는 제외",
+            "vi": "Hợp đồng lấy cái chết làm lý do chi trả mà người được BH là người dưới 15 tuổi, người mất năng lực tâm thần, hoặc người yếu tâm thần ※ Trừ trường hợp người yếu tâm thần vẫn có năng lực hành vi khi ký hợp đồng"
+          },
+          {
+            "번호": "③",
+            "ko": "계약 체결시 계약에서 정한 피보험자의 나이에 미달 또는 초과되었을 경우",
+            "vi": "Khi ký hợp đồng, người được BH chưa đủ tuổi tối thiểu hoặc vượt quá tuổi tối đa quy định trong hợp đồng"
+          },
+          {
+            "번호": "④",
+            "ko": "보험계약자가 보험금의 부정취득 또는 도박을 목적으로 보험계약을 체결한 경우 ※ '민법상 선량한 풍속, 기타 사회질서에 반하는 행위'",
+            "vi": "Bên tham gia ký hợp đồng với mục đích chiếm đoạt tiền bảo hiểm gian lận hoặc đánh bạc ※ 'Hành vi trái với phong tục tốt đẹp và trật tự xã hội theo Luật Dân sự'"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 보험계약의 무효사유에 해당하지 않는 것은?",
+        "question_vi": "Trường hợp nào KHÔNG phải là lý do vô hiệu hợp đồng bảo hiểm?",
+        "options": [
+          "① '민법'상 선량한 풍속, 기타 사회질서에 반하는 보험금의 부정취득을 목적으로 하는 계약",
+          "② 만 15세 미만자를 피보험자로 하여 사망을 보험금 지급사유로 한 계약의 경우",
+          "③ 의사능력이 있는 심신박약자를 단체보험의 피보험자로 계약하는 경우"
+        ],
+        "options_vi": [
+          "① Hợp đồng nhằm chiếm đoạt gian lận, trái phong tục và trật tự xã hội theo Luật Dân sự.",
+          "② Hợp đồng lấy cái chết làm lý do chi trả mà người được BH dưới 15 tuổi.",
+          "③ Lấy người yếu tâm thần nhưng còn năng lực hành vi làm người được BH trong bảo hiểm nhóm."
+        ],
+        "answer": "③",
+        "answer_vi": "③ KHÔNG phải lý do vô hiệu - Người yếu tâm thần CÓ năng lực hành vi được phép là người được BH trong bảo hiểm nhóm"
+      }
+    },
+    {
+      "id": "015",
+      "title": "보험약관의 교부·설명의무",
+      "title_vi": "Nghĩa vụ Giao và Giải thích Điều khoản Bảo hiểm",
+      "content": {
+        "의무_내용": [
+          {
+            "항목_ko": "보험약관의 교부·설명의무(보험회사의 의무): 약관 및 계약자 보관용 청약서 교부 & 중요한 내용 설명 → 모집종사자가 대신하여 의무 이행 / 계약의 세부내용은 보험증권에서 정함",
+            "항목_vi": "Nghĩa vụ giao và giải thích điều khoản (nghĩa vụ của công ty BH): Giao điều khoản và bản sao đơn đề nghị lưu giữ cho bên tham gia & Giải thích nội dung quan trọng → Người môi giới có thể thực hiện thay / Chi tiết hợp đồng được xác định trong giấy chứng nhận BH"
+          },
+          {
+            "항목_ko": "설명의무 대상: 계약당사자의 권리·의무와 관련된 것",
+            "항목_vi": "Đối tượng cần giải thích: các nội dung liên quan đến quyền và nghĩa vụ của các bên trong hợp đồng"
+          },
+          {
+            "항목_ko": "설명의무 대상 아닌 보험약관 내용: 일반적이고 공통된 것, 이미 법령에 정하여진 것을 되풀이 또는 부연하는 사항",
+            "항목_vi": "Nội dung điều khoản KHÔNG cần giải thích: nội dung chung và phổ biến, nội dung chỉ lặp lại hoặc bổ sung những gì đã được quy định trong pháp luật"
+          }
+        ],
+        "위반_시_효과": [
+          {
+            "ko": "계약자는 계약이 성립한 날부터 3개월 이내에 계약을 취소할 수 있음",
+            "vi": "Bên tham gia có thể hủy hợp đồng trong vòng 3 tháng kể từ ngày hợp đồng thành lập"
+          },
+          {
+            "ko": "회사는 기납보험료와 보험료를 받은 기간에 대하여 '보험계약대출이율'을 연단위 복리로 계산한 금액을 더하여 지급",
+            "vi": "Công ty phải hoàn trả phí đã đóng cộng thêm lãi suất 'lãi vay theo hợp đồng BH' tính lãi kép hàng năm cho thời gian đã giữ phí"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 보험회사의 의무에 대한 설명으로 맞는 것은?",
+        "question_vi": "Đâu là mô tả ĐÚNG về nghĩa vụ của công ty bảo hiểm?",
+        "options": [
+          "① 보험계약자에게 약관 및 계약자 보관용 청약서를 교부하고 그 중요한 내용을 설명하여야 한다.",
+          "② 보험금 지급사유가 발생한 때에 피보험자에게 약정한 보험금을 지급한다.",
+          "③ 보험약관 설명의무를 위반한 경우 보험계약자는 계약이 성립한 날부터 6개월 이내에 그 계약을 취소할 수 있다."
+        ],
+        "options_vi": [
+          "① Phải giao điều khoản và bản sao đơn đề nghị lưu giữ cho bên tham gia và giải thích nội dung quan trọng.",
+          "② Khi xảy ra sự cố, chi trả số tiền bảo hiểm đã cam kết cho người được bảo hiểm.",
+          "③ Nếu vi phạm nghĩa vụ giải thích điều khoản, bên tham gia có thể hủy hợp đồng trong 6 tháng."
+        ],
+        "answer": "①",
+        "answer_vi": "① ĐÚNG / ② Sai - chi trả cho người THỤ HƯỞNG, không phải người được BH / ③ Sai - thời hạn là 3 tháng, không phải 6 tháng"
+      }
+    },
+    {
+      "id": "016",
+      "title": "사망의 추정·인정, 장해의 정의",
+      "title_vi": "Suy đoán & Công nhận Tử vong, Định nghĩa Thương tật",
+      "content": {
+        "사망_추정_인정": [
+          {
+            "유형_ko": "일반실종",
+            "유형_vi": "Mất tích thông thường",
+            "내용_ko": "부재자의 생사가 5년간 분명하지 아니한 때, 법원 선고",
+            "내용_vi": "Khi tung tích của người vắng mặt không rõ trong 5 năm, tòa án tuyên bố"
+          },
+          {
+            "유형_ko": "특별실종",
+            "유형_vi": "Mất tích đặc biệt",
+            "내용_ko": "위난을 당한 자의 생사가 위난 종료 후 1년간 분명하지 아니한 때, 법원 선고",
+            "내용_vi": "Khi tung tích của người gặp nạn không rõ trong 1 năm sau khi tai nạn kết thúc, tòa án tuyên bố"
+          },
+          {
+            "유형_ko": "인정사망",
+            "유형_vi": "Công nhận tử vong (Presumption of Death)",
+            "내용_ko": "수해, 화재 등 재난으로 관공서가 사망자의 시·읍·면의 장에게 통보하여 사망한 것으로 인정",
+            "내용_vi": "Trong thiên tai như lũ lụt, hỏa hoạn... cơ quan nhà nước thông báo cho trưởng đơn vị hành chính (thị/phường/xã) và công nhận là đã chết"
+          }
+        ],
+        "장해의_정의": {
+          "정의_ko": "상해·질병이 치유된 후 신체에 남은 영구적인 정신 또는 육체의 훼손 및 기능상실 상태",
+          "정의_vi": "Tình trạng hư tổn vĩnh viễn về tinh thần hoặc thể chất còn lại trên cơ thể sau khi vết thương hoặc bệnh đã được chữa lành",
+          "한시적_장해_ko": "한시적 장해: 한시적 기간이 5년 이상인 경우 해당 장해지급률의 20%를 장해지급률로 함",
+          "한시적_장해_vi": "Thương tật tạm thời: Nếu thời gian tạm thời từ 5 năm trở lên, tỷ lệ chi trả thương tật = 20% của tỷ lệ chi trả thương tật tương ứng"
+        }
+      },
+      "exam_question": {
+        "question_ko": "다음 표의 ( ) 안에 들어갈 내용으로 맞는 것은?",
+        "question_vi": "Nội dung nào đúng để điền vào chỗ trống?",
+        "context_ko": "일반실종은 부재자의 생사가 (가)간 분명하지 아니한 때에 (나) 이해관계인이나 검사의 청구에 의해 실종선고를 하고 (다) 한 것으로 보는 제도이다.",
+        "context_vi": "Mất tích thông thường là chế độ mà khi tung tích của người vắng mặt không rõ trong (가), (나) ra tuyên bố mất tích theo yêu cầu của những người liên quan hoặc kiểm sát viên và được coi là đã (다).",
+        "options": [
+          "① (가) 5년, (나) 법원, (다) 사망",
+          "② (가) 3년, (나) 법원, (다) 실종",
+          "③ (가) 3년, (나) 관할구청, (다) 사망"
+        ],
+        "options_vi": [
+          "① (가) 5 năm, (나) Tòa án, (다) Tử vong",
+          "② (가) 3 năm, (나) Tòa án, (다) Mất tích",
+          "③ (가) 3 năm, (나) Ủy ban nhân dân, (다) Tử vong"
+        ],
+        "answer": "①",
+        "answer_vi": "① ĐÚNG: Mất tích thông thường = 5 năm không rõ tung tích → Tòa án tuyên bố → được coi là Tử vong"
+      }
+    }
+  ],
+  "vocabulary_glossary": {
+    "title": "Bảng tra cứu thuật ngữ bảo hiểm Hàn - Việt",
+    "terms": [
+      {"ko": "생명보험", "vi": "Bảo hiểm nhân thọ"},
+      {"ko": "보험계약자", "vi": "Bên tham gia hợp đồng / Người mua bảo hiểm"},
+      {"ko": "피보험자", "vi": "Người được bảo hiểm"},
+      {"ko": "보험수익자", "vi": "Người thụ hưởng bảo hiểm"},
+      {"ko": "보험료", "vi": "Phí bảo hiểm"},
+      {"ko": "보험금", "vi": "Tiền bảo hiểm / Tiền bồi thường"},
+      {"ko": "보험기간", "vi": "Thời hạn bảo hiểm"},
+      {"ko": "보험사고", "vi": "Sự cố bảo hiểm"},
+      {"ko": "보험증권", "vi": "Giấy chứng nhận bảo hiểm / Hợp đồng bảo hiểm"},
+      {"ko": "청약", "vi": "Đề nghị giao kết hợp đồng (Offer)"},
+      {"ko": "승낙", "vi": "Chấp thuận (Acceptance)"},
+      {"ko": "청약철회", "vi": "Rút lại đề nghị hợp đồng (Cooling-off)"},
+      {"ko": "계약의 무효", "vi": "Hợp đồng vô hiệu"},
+      {"ko": "대수의 법칙", "vi": "Luật số lớn (Law of Large Numbers)"},
+      {"ko": "수지상등의 원칙", "vi": "Nguyên tắc cân bằng thu chi"},
+      {"ko": "사망률", "vi": "Tỷ lệ tử vong"},
+      {"ko": "생명표", "vi": "Bảng sự sống (Life Table)"},
+      {"ko": "3이원방식", "vi": "Phương pháp 3 yếu tố cơ bản"},
+      {"ko": "현금흐름방식", "vi": "Phương pháp dòng tiền (Cash Flow Method)"},
+      {"ko": "예정위험률", "vi": "Tỷ lệ rủi ro dự kiến"},
+      {"ko": "예정이율", "vi": "Lãi suất dự kiến"},
+      {"ko": "예정사업비율", "vi": "Tỷ lệ chi phí kinh doanh dự kiến"},
+      {"ko": "계약자 배당", "vi": "Cổ tức cho người tham gia hợp đồng"},
+      {"ko": "재무설계", "vi": "Lập kế hoạch tài chính (Financial Planning)"},
+      {"ko": "사회보장제도", "vi": "Hệ thống an sinh xã hội"},
+      {"ko": "상부상조", "vi": "Tương trợ lẫn nhau"},
+      {"ko": "보장 개시일", "vi": "Ngày bắt đầu bảo đảm"},
+      {"ko": "일반실종", "vi": "Mất tích thông thường"},
+      {"ko": "특별실종", "vi": "Mất tích đặc biệt"},
+      {"ko": "인정사망", "vi": "Công nhận tử vong"},
+      {"ko": "장해", "vi": "Thương tật / Tàn tật"},
+      {"ko": "설명의무", "vi": "Nghĩa vụ giải thích"},
+      {"ko": "약관", "vi": "Điều khoản / Điều kiện hợp đồng"},
+      {"ko": "방카슈랑스", "vi": "Bancassurance (bán bảo hiểm qua ngân hàng)"},
+      {"ko": "단체보험", "vi": "Bảo hiểm nhóm"},
+      {"ko": "무진단계약", "vi": "Hợp đồng không cần khám sức khỏe"},
+      {"ko": "진단계약", "vi": "Hợp đồng có khám sức khỏe"},
+      {"ko": "전문금융소비자", "vi": "Người tiêu dùng tài chính chuyên nghiệp"},
+      {"ko": "금융소비자보호법", "vi": "Luật Bảo vệ người tiêu dùng tài chính"},
+      {"ko": "초고령사회", "vi": "Xã hội siêu già hóa (tỷ lệ người cao tuổi >20%)"}
+    ]
+  }
+}
