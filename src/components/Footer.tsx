@@ -67,10 +67,6 @@ export default function Footer() {
                 <User size={20} color="var(--hanwha-orange)" style={{ flexShrink: 0 }} />
                 <span className="font-bold">김민석</span>
               </li>
-              <li style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <Phone size={20} color="var(--hanwha-orange)" style={{ flexShrink: 0 }} />
-                <span>010-6599-7807</span>
-              </li>
             </ul>
           </div>
         </div>
