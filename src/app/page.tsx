@@ -19,8 +19,8 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 mb-6 font-bold" style={{ backgroundColor: 'white', padding: '0.5rem 1rem', borderRadius: '999px', color: 'var(--hanwha-orange)', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--slate-200)' }}>
             <Sparkles size={16} /> Phiên bản mới: Tích hợp AI Marketing
           </div>
-          <h1 className="font-black mb-6" style={{ fontSize: '4.5rem', lineHeight: 1.1, color: 'var(--slate-900)', letterSpacing: '-0.03em' }}>
-            Làm Chủ Kiến Thức Bảo Hiểm <br />
+          <h1 className="font-black mb-6" style={{ fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)', lineHeight: 1.1, color: 'var(--slate-900)', letterSpacing: '-0.03em' }}>
+            <span style={{ whiteSpace: 'nowrap' }}>Làm Chủ Kiến Thức Bảo Hiểm</span> <br />
             <span style={{ color: 'var(--hanwha-orange)' }}>Dễ Dàng Hơn Bao Giờ Hết</span>
           </h1>
           <p className="mb-8 font-medium" style={{ fontSize: '1.25rem', color: 'var(--slate-600)', maxWidth: '800px', margin: '0 auto 2.5rem auto' }}>
