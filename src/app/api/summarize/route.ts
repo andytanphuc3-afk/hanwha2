@@ -30,7 +30,7 @@ ${text}`;
 
     let summaryText = '';
     try {
-      summaryText = response.text;
+      summaryText = response.text || '';
     } catch (e) {
       summaryText = response.candidates?.[0]?.content?.parts?.[0]?.text || 'Nội dung tóm tắt bị chặn hoặc không thể tạo.';
     }
