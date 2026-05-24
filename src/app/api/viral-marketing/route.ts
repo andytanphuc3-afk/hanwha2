@@ -62,8 +62,11 @@ Trả kết quả rõ ràng bằng markdown:
 # Hashtags
 (Các hashtag)
 
-# Video Idea
-(Gợi ý visual/video: cảnh quay, biểu cảm, text overlay, nhạc)
+${content_type?.toLowerCase().includes('ảnh') ? 
+`# Image Idea
+(Gợi ý hình ảnh: Bố cục, text trên ảnh, phong cách thiết kế, cảm xúc)` :
+`# Video Idea
+(Gợi ý visual/video: cảnh quay, biểu cảm, text overlay, nhạc)`}
 
 # Viral Tips
 (Mẹo tối ưu cho ${platform} như pattern interrupt, comment, retention...)
