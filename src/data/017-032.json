@@ -1,0 +1,865 @@
+{
+  "meta": {
+    "title_ko": "2026 생명보험이란 무엇인가 - Essential 113題",
+    "title_vi": "2026 Bảo hiểm nhân thọ là gì - Essential 113 câu hỏi",
+    "part_ko": "제1편 보험이론 및 윤리",
+    "part_vi": "Phần 1: Lý thuyết bảo hiểm và đạo đức",
+    "source": "Essential 113題",
+    "language": ["ko", "vi"]
+  },
+  "topics": [
+    {
+      "id": "017",
+      "title_ko": "보험금 지급기일 및 청구",
+      "title_vi": "Ngày chi trả và yêu cầu bồi thường bảo hiểm",
+      "category_ko": "보험금 처리",
+      "category_vi": "Xử lý bồi thường bảo hiểm",
+      "table": {
+        "title_ko": "시류 접수일로부터 처리기한",
+        "title_vi": "Thời hạn xử lý từ ngày nhận hồ sơ",
+        "rows": [
+          {
+            "item_ko": "보험금 청구와 관련된 구비서류 접수 시",
+            "item_vi": "Khi nhận đủ hồ sơ liên quan đến yêu cầu bồi thường",
+            "deadline_ko": "3영업일 이내",
+            "deadline_vi": "Trong vòng 3 ngày làm việc"
+          },
+          {
+            "item_ko": "보험금 지급사유 조사·확인 필요 시",
+            "item_vi": "Khi cần điều tra, xác nhận lý do chi trả bảo hiểm",
+            "deadline_ko": "10영업일 이내",
+            "deadline_vi": "Trong vòng 10 ngày làm việc"
+          },
+          {
+            "item_ko": "10영업일 이내 지급하지 못할 것으로 예상 시",
+            "item_vi": "Khi dự kiến không thể chi trả trong 10 ngày làm việc",
+            "deadline_ko": "30영업일 이내",
+            "deadline_vi": "Trong vòng 30 ngày làm việc"
+          }
+        ]
+      },
+      "key_points": [
+        {
+          "ko": "보험금 지급일 미지정 사유: 소송제기, 분쟁조정신청, 해외발생 보험사고 조사 등",
+          "vi": "Lý do không ấn định ngày chi trả: khởi kiện, yêu cầu giải quyết tranh chấp, điều tra tai nạn bảo hiểm xảy ra ở nước ngoài, v.v."
+        },
+        {
+          "ko": "보험금 청구시 구비서류: 보험청구서, 신분증, 사고증명서(국외 의료기관이 발급한 증명서도 인정됨)",
+          "vi": "Hồ sơ yêu cầu bồi thường: đơn yêu cầu, CMND/CCCD, giấy chứng nhận tai nạn (kể cả giấy tờ do cơ sở y tế nước ngoài cấp)"
+        },
+        {
+          "ko": "보험금 가지급제도: 추정 보험금의 50% 이내 미리 지급 후 보험금 확정 시 정산",
+          "vi": "Chế độ tạm ứng bảo hiểm: tạm ứng trong vòng 50% số tiền bảo hiểm ước tính, quyết toán khi xác định chính thức"
+        },
+        {
+          "ko": "보험금 지급 안내(중도, 만기시): 지급시기 7일 이전에 사유와 금액 안내",
+          "vi": "Thông báo chi trả (giữa kỳ, đáo hạn): thông báo lý do và số tiền trước ngày chi trả 7 ngày"
+        },
+        {
+          "ko": "부당한 보험금 지급 등을 예방하기 위해 약관에서는 보험금 지급 전에 보험회사의 조사권을 정하고, 계약자가 협조토록 하고 있음",
+          "vi": "Để ngăn chặn chi trả bảo hiểm không hợp lệ, điều khoản quy định quyền điều tra của công ty bảo hiểm trước khi chi trả, yêu cầu người tham gia hợp tác"
+        },
+        {
+          "ko": "정당한 사유없이 조사요청에 동의하지 않을 경우 보험금 지급지연에 따른 이자를 지급하지 않음",
+          "vi": "Nếu không đồng ý điều tra mà không có lý do chính đáng, công ty không phải trả lãi do chậm chi trả bảo hiểm"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 표의 ( )안에 들어갈 숫자의 합으로 맞는 것은? (보험금 청구와 관련된 구비서류 접수 시 서류 접수일로부터 ( )영업일 이내, 10영업일 이내 보험금을 지급하지 못할 것으로 예상시 ( )영업일 이내에 지급하여야 한다.)",
+        "question_vi": "Tổng các số điền vào chỗ trống trong bảng sau là bao nhiêu? (Trong vòng ( ) ngày làm việc từ ngày nhận hồ sơ; khi dự kiến không thể thanh toán trong 10 ngày làm việc thì phải thanh toán trong vòng ( ) ngày làm việc)",
+        "options": ["① 33", "② 13", "③ 37"],
+        "answer": "①",
+        "answer_vi": "① (3 + 30 = 33)"
+      }
+    },
+    {
+      "id": "018",
+      "title_ko": "보험금을 지급하지 않는 이유",
+      "title_vi": "Lý do không chi trả bảo hiểm",
+      "category_ko": "보험금 처리",
+      "category_vi": "Xử lý bồi thường bảo hiểm",
+      "key_points": [
+        {
+          "number": 1,
+          "ko": "피보험자가 고의로 자신을 해친 경우 (예외: 계약의 보장개시일로부터 2년이 지난 후에 자살한 경우, 피보험자가 심신상실 등 자유로운 의사결정을 할 수 없는 상태에서 자신을 해친 경우)",
+          "vi": "Người được bảo hiểm cố ý tự gây thương tích cho bản thân (Ngoại lệ: tự tử sau 2 năm kể từ ngày bắt đầu bảo hiểm; tự gây hại trong trạng thái mất năng lực nhận thức)"
+        },
+        {
+          "number": 2,
+          "ko": "계약자, 보험수익자가 고의로 피보험자를 해친 경우 (피보험자의 일부 보험수익자인 경우 고의로 피보험자를 해친 보험수익자에 해당하는 보험금을 제외한 나머지 보험금을 다른 보험수익자에게 지급함)",
+          "vi": "Người tham gia hoặc người thụ hưởng cố ý gây hại cho người được bảo hiểm (Nếu người thụ hưởng là một phần, phần bảo hiểm của người thụ hưởng cố ý gây hại bị loại trừ, phần còn lại trả cho người thụ hưởng khác)"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험금을 지급하지 않는 사유에 해당하지 않는 것은?",
+        "question_vi": "Điều nào sau đây KHÔNG phải là lý do không chi trả bảo hiểm?",
+        "options": [
+          "① 피보험자가 보장개시일로부터 2년이 지난 후 자살한 경우",
+          "② 보험수익자가 공모하여 고의로 피보험자를 해친 경우",
+          "③ 보험계약자가 고의로 피보험자를 해친 경우"
+        ],
+        "answer": "①",
+        "answer_vi": "① (Tự tử sau 2 năm là ngoại lệ được chi trả)"
+      }
+    },
+    {
+      "id": "019",
+      "title_ko": "계약 전 알릴 의무 (고지의무)",
+      "title_vi": "Nghĩa vụ thông báo trước khi ký hợp đồng (nghĩa vụ khai báo)",
+      "category_ko": "계약 의무",
+      "category_vi": "Nghĩa vụ hợp đồng",
+      "key_points": [
+        {
+          "ko": "계약자, 피보험자의 의무",
+          "vi": "Nghĩa vụ của người tham gia và người được bảo hiểm"
+        },
+        {
+          "ko": "계약 전 알릴 의무 사항: 계약승낙에 영향을 미칠 수 있는 사항(질병, 운전여부 등 청약서의 질문표에 명시)",
+          "vi": "Nội dung phải khai báo: các thông tin có thể ảnh hưởng đến chấp nhận hợp đồng (bệnh tật, có lái xe hay không... được ghi rõ trong bảng câu hỏi)"
+        },
+        {
+          "ko": "계약인수 여부, 적정 보험료·보험금액 산정 등에 영향",
+          "vi": "Ảnh hưởng đến việc chấp nhận hợp đồng, xác định phí bảo hiểm và số tiền bảo hiểm phù hợp"
+        },
+        {
+          "ko": "계약 전 알릴 의무 위반시(계약자 또는 피보험자): 보험회사는 해지(해약환급금 지급) 혹은 보장제한(보험료, 보험가입금액 조정)",
+          "vi": "Khi vi phạm nghĩa vụ khai báo (người tham gia hoặc người được bảo hiểm): công ty có thể hủy hợp đồng (hoàn trả phí) hoặc giới hạn bảo hiểm (điều chỉnh phí, số tiền)"
+        }
+      ],
+      "cant_restrict_coverage": {
+        "title_ko": "계약 전 알릴 의무 위반으로 해지하거나 보장을 제한할 수 없는 경우",
+        "title_vi": "Các trường hợp không thể hủy hợp đồng hoặc giới hạn bảo hiểm do vi phạm nghĩa vụ khai báo",
+        "items": [
+          {
+            "number": 1,
+            "ko": "회사가 위반사실을 안 날부터 ①1개월 이상 지났을 때",
+            "vi": "Đã qua 1 tháng kể từ ngày công ty biết về việc vi phạm"
+          },
+          {
+            "number": 2,
+            "ko": "보장개시일부터 보험금 지급사유가 발생하지 않고 ②2년이 지났을 때",
+            "vi": "Không có sự kiện bảo hiểm trong 2 năm kể từ ngày bắt đầu bảo hiểm"
+          },
+          {
+            "number": 3,
+            "ko": "계약을 체결한 날부터 ③3년이 지났을 때",
+            "vi": "Đã 3 năm kể từ ngày ký hợp đồng"
+          },
+          {
+            "number": 4,
+            "ko": "보험설계사 등이 고지할 기회를 주지 않았거나 사실대로 고지하는 것을 방해한 경우",
+            "vi": "Nhân viên tư vấn bảo hiểm không tạo cơ hội khai báo hoặc cản trở việc khai báo trung thực"
+          },
+          {
+            "number": 5,
+            "ko": "회사가 계약 전 알릴 의무 위반사실을 알았거나 과실로 알지 못했을 때",
+            "vi": "Công ty đã biết hoặc do lỗi sơ suất mà không biết về vi phạm khai báo"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 계약 전 알릴 의무 위반에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về vi phạm nghĩa vụ khai báo trước hợp đồng?",
+        "options": [
+          "① 회사가 계약 전 알릴 의무 위반으로 보험계약을 해지하였을 때에는 해약환급금을 지급한다.",
+          "② 계약 전 알릴 의무 위반이 있더라도 계약을 체결한 후 2년이 지났을 때에는 계약을 해지할 수 있다.",
+          "③ 보장을 제한하였을 때에는 보험료, 보험가입금액 등이 조정될 수 있다."
+        ],
+        "answer": "②",
+        "answer_vi": "② (Sai - phải là 3 năm, không phải 2 năm)"
+      }
+    },
+    {
+      "id": "020",
+      "title_ko": "계약 후 알릴 의무 (통지의무)",
+      "title_vi": "Nghĩa vụ thông báo sau khi ký hợp đồng (nghĩa vụ thông báo)",
+      "category_ko": "계약 의무",
+      "category_vi": "Nghĩa vụ hợp đồng",
+      "key_points": [
+        {
+          "ko": "지체없이 보험회사에 통지",
+          "vi": "Thông báo ngay cho công ty bảo hiểm"
+        },
+        {
+          "ko": "보험금 지급사유 발생 통지: 계약자, 피보험자, 수익자 모두의 의무",
+          "vi": "Thông báo khi phát sinh sự kiện chi trả bảo hiểm: là nghĩa vụ của người tham gia, người được bảo hiểm và người thụ hưởng"
+        },
+        {
+          "ko": "주소변경 통지: 계약자 또는 수익자의 의무(피보험자 X). 미통지시에는 회사에서 알린 최종 주소로 우편물에 대한 기록이 남는 방법으로 알린 사항은 일반적으로 도달하는데 필요한 시일이 지난 때에 도달한 것으로 봄",
+          "vi": "Thông báo thay đổi địa chỉ: nghĩa vụ của người tham gia hoặc người thụ hưởng (không phải người được bảo hiểm). Nếu không thông báo, thư gửi đến địa chỉ cuối cùng được xem là đã đến sau thời gian chuyển phát thông thường"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험계약자와 보험수익자의 계약 후 알릴 의무 대상에 해당하지 않는 것은?",
+        "question_vi": "Điều nào sau đây KHÔNG phải là đối tượng thông báo sau hợp đồng của người tham gia và người thụ hưởng?",
+        "options": [
+          "① 현재 및 과거 질병, 직접 운전여부",
+          "② 보험금 지급 사유의 발생",
+          "③ 주소변경"
+        ],
+        "answer": "①",
+        "answer_vi": "① (Bệnh tật và lái xe là nghĩa vụ khai báo TRƯỚC hợp đồng)"
+      }
+    },
+    {
+      "id": "021",
+      "title_ko": "보험료 납입최고 (독촉)",
+      "title_vi": "Nhắc nhở nộp phí bảo hiểm (đôn đốc)",
+      "category_ko": "보험료 납입",
+      "category_vi": "Nộp phí bảo hiểm",
+      "key_points": [
+        {
+          "ko": "보험료 납입이 연체 중인 경우 14일(보험기간이 1년 미만인 경우 7일) 이상의 기간을 납입최고기간으로 하여 서면(전자문서), 전화 등으로 통지",
+          "vi": "Khi phí bảo hiểm bị chậm, thông báo bằng văn bản (tài liệu điện tử) hoặc điện thoại với thời hạn tối thiểu 14 ngày (7 ngày nếu thời hạn bảo hiểm dưới 1 năm)"
+        },
+        {
+          "ko": "계약자와 보험수익자가 다른 경우 보험수익자에게도 통보",
+          "vi": "Nếu người tham gia và người thụ hưởng khác nhau, cần thông báo cả người thụ hưởng"
+        },
+        {
+          "ko": "전자문서로 할 경우: 계약자의 서면(전자문서) 동의 획득 + 수신확인 조건. 전자문서가 수신되지 않은 것으로 확인한 경우 보험회사는 납입최고절차를 다시 거쳐야 함",
+          "vi": "Nếu dùng tài liệu điện tử: phải có sự đồng ý bằng văn bản + xác nhận nhận được. Nếu xác nhận không nhận được, công ty phải thực hiện lại quy trình đôn đốc"
+        },
+        {
+          "ko": "납입최고기간 안에 보험료를 납입하지 않은 경우 납입최고기간이 끝나는 날의 다음 날에 계약 해지하며, 해약환급금(보험계약대출 원리금 차감) 지급",
+          "vi": "Nếu không nộp phí trong thời hạn đôn đốc, hợp đồng bị hủy vào ngày tiếp theo sau khi hết thời hạn, hoàn trả tiền mua bảo hiểm (trừ gốc và lãi vay bảo hiểm)"
+        },
+        {
+          "ko": "납입최고기간 안에 발생한 보험사고는 보장",
+          "vi": "Sự kiện bảo hiểm xảy ra trong thời gian đôn đốc vẫn được bảo hiểm"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험료 납입최고(독촉)에 대한 설명으로 맞는 것은?",
+        "question_vi": "Điều nào sau đây là ĐÚNG về việc nhắc nhở nộp phí bảo hiểm?",
+        "options": [
+          "① 보험기간이 1년 미만인 경우 14일 이상의 기간을 납입최고(독촉)기간으로 정한다.",
+          "② 보험수익자와 계약자가 다른 경우 보험수익자와 계약자 모두에게 납입최고(독촉)를 한다.",
+          "③ 전자문서로 납입최고(독촉)를 안내하는 경우 수신 확인 여부와 관계없이 그 전자문서는 송신된 것으로 간주한다."
+        ],
+        "answer": "②",
+        "answer_vi": "②"
+      }
+    },
+    {
+      "id": "022",
+      "title_ko": "부활 (효력회복)",
+      "title_vi": "Khôi phục hiệu lực hợp đồng",
+      "category_ko": "계약 관리",
+      "category_vi": "Quản lý hợp đồng",
+      "key_points": [
+        {
+          "ko": "부활 조건: 해지된 날 기준 3년 이내 부활 청약",
+          "vi": "Điều kiện khôi phục: nộp đề nghị khôi phục trong vòng 3 năm kể từ ngày hủy hợp đồng"
+        },
+        {
+          "ko": "보험료 납입연체로 계약해지 + 해약환급금 미수령",
+          "vi": "Hủy hợp đồng do chậm nộp phí + chưa nhận tiền hoàn lại"
+        },
+        {
+          "ko": "회사 승낙 시: 연체된 보험료와 이자(평균공시이율 + 1%) 납입",
+          "vi": "Khi công ty chấp nhận: nộp phí bảo hiểm trễ và lãi suất (lãi suất công bố bình quân + 1%)"
+        },
+        {
+          "ko": "부활 절차: 신계약 절차와 동일(진단 필요시 재진단) → 역선택 방지",
+          "vi": "Quy trình khôi phục: tương tự hợp đồng mới (khám lại nếu cần) → ngăn chặn chọn lọc bất lợi"
+        },
+        {
+          "ko": "특별부활: 강제집행 등으로 해지된 계약의 부활. 명의변경(계약자 → 보험수익자) 및 특별부활 청약 안내. 해지된 날로부터 7일 이내에 보험수익자에게 통보. 통지받은 날부터 15일 이내 특별부활 청약 가능. 회사 지급금액 납입 + 계약자 동의",
+          "vi": "Khôi phục đặc biệt: khôi phục hợp đồng bị hủy do cưỡng chế thi hành. Chuyển tên (người tham gia → người thụ hưởng), thông báo trong 7 ngày, người thụ hưởng có thể đề nghị trong 15 ngày"
+        },
+        {
+          "ko": "부당한 보험계약의 전환으로 인한 부활: 계약이 소멸한 날로부터 6개월 내 소멸계약 부활 청구하고 새로운 계약 취소 가능. 비교안내를 충실히 이행했음에도 소멸된 날부터 1개월 이내에 신계약 청약시 부당한 계약전환에 해당 가능",
+          "vi": "Khôi phục do chuyển đổi hợp đồng không hợp lệ: có thể yêu cầu khôi phục trong 6 tháng và hủy hợp đồng mới"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험계약의 부활에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về khôi phục hiệu lực hợp đồng bảo hiểm?",
+        "options": [
+          "① 계약자는 해지된 날부터 3년 이내에 계약의 부활을 청약할 수 있다.",
+          "② 계약을 부활하는 경우 신계약과 동일한 절차로 이루어진다.",
+          "③ 보험계약이 취소 또는 해지된 경우에 부활이 가능하다."
+        ],
+        "answer": "③",
+        "answer_vi": "③ (Chỉ áp dụng khi bị hủy do chậm nộp phí và chưa nhận tiền hoàn, không áp dụng khi hủy bỏ/vô hiệu)"
+      }
+    },
+    {
+      "id": "023",
+      "title_ko": "계약내용 변경",
+      "title_vi": "Thay đổi nội dung hợp đồng",
+      "category_ko": "계약 관리",
+      "category_vi": "Quản lý hợp đồng",
+      "rules": [
+        {
+          "ko": "피보험자는 변경할 수 없음",
+          "vi": "Không thể thay đổi người được bảo hiểm"
+        },
+        {
+          "ko": "보험수익자 변경을 제외하고 보험회사의 승낙 필요",
+          "vi": "Ngoài việc thay đổi người thụ hưởng, cần sự chấp thuận của công ty bảo hiểm"
+        }
+      ],
+      "change_table": [
+        {
+          "type_ko": "보험종목 변경",
+          "type_vi": "Thay đổi loại bảo hiểm",
+          "condition_ko": "제1회 보험료 납입한 때부터 1년 이상 지난 유효한 계약",
+          "condition_vi": "Hợp đồng còn hiệu lực đã qua ít nhất 1 năm kể từ lần đầu nộp phí"
+        },
+        {
+          "type_ko": "보험가입금액 변경",
+          "type_vi": "Thay đổi số tiền bảo hiểm",
+          "condition_ko": "감액된 부분은 해지된 것으로 봄 ⇒ 계약자에게 해약환급금 지급",
+          "condition_vi": "Phần giảm được xem là đã hủy ⇒ hoàn trả tiền cho người tham gia"
+        },
+        {
+          "type_ko": "계약자 변경",
+          "type_vi": "Thay đổi người tham gia",
+          "condition_ko": "변경된 계약자에게 보험증권 및 약관 교부, 약관의 중요한 내용 설명의무",
+          "condition_vi": "Giao chứng nhận bảo hiểm và điều khoản cho người tham gia mới, giải thích nội dung quan trọng"
+        },
+        {
+          "type_ko": "수익자 변경",
+          "type_vi": "Thay đổi người thụ hưởng",
+          "condition_ko": "보험회사의 승낙 불필요 ⇒ 보험금 지급사유 발생 전까지 피보험자의 서면동의의 필요",
+          "condition_vi": "Không cần chấp thuận của công ty bảo hiểm ⇒ cần sự đồng ý bằng văn bản của người được bảo hiểm trước khi phát sinh sự kiện"
+        }
+      ],
+      "additional": [
+        {
+          "ko": "임의해지: 계약자는 계약이 소멸하기 전에 언제든지 해지 가능",
+          "vi": "Hủy tự nguyện: người tham gia có thể hủy bất cứ lúc nào trước khi hợp đồng chấm dứt"
+        },
+        {
+          "ko": "피보험자의 서면동의 철회권: 사망을 보험금 지급사유로 하는 계약에서 피보험자는 언제든지 서면동의를 장래를 향하여 철회할 수 있음",
+          "vi": "Quyền rút lại sự đồng ý bằng văn bản của người được bảo hiểm: trong hợp đồng có sự kiện tử vong, người được bảo hiểm có thể rút lại sự đồng ý bất cứ lúc nào"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험계약의 내용 변경시 보험회사의 승낙이 필요하지 않는 것은?",
+        "question_vi": "Điều nào sau đây KHÔNG cần sự chấp thuận của công ty bảo hiểm khi thay đổi nội dung hợp đồng?",
+        "options": [
+          "① 보험종목 변경",
+          "② 보험가입금액 변경",
+          "③ 보험수익자 변경"
+        ],
+        "answer": "③",
+        "answer_vi": "③ (Thay đổi người thụ hưởng không cần chấp thuận của công ty)"
+      }
+    },
+    {
+      "id": "024",
+      "title_ko": "소멸시효",
+      "title_vi": "Thời hiệu khiếu nại",
+      "category_ko": "계약 관리",
+      "category_vi": "Quản lý hợp đồng",
+      "table": {
+        "rows": [
+          {
+            "period_ko": "3년",
+            "period_vi": "3 năm",
+            "claimant_ko": "계약자 등의 청구권",
+            "claimant_vi": "Quyền khiếu nại của người tham gia",
+            "claims_ko": "보험금 청구권, 보험료 반환청구권, 해약환급금 청구권, 계약자적립액 반환청구권 및 배당금청구권",
+            "claims_vi": "Quyền yêu cầu bồi thường, hoàn phí bảo hiểm, tiền hoàn lại, hoàn trả số tiền tích lũy và cổ tức"
+          },
+          {
+            "period_ko": "2년",
+            "period_vi": "2 năm",
+            "claimant_ko": "보험회사의 청구권",
+            "claimant_vi": "Quyền khiếu nại của công ty bảo hiểm",
+            "claims_ko": "보험료 청구권",
+            "claims_vi": "Quyền yêu cầu thu phí bảo hiểm"
+          }
+        ]
+      },
+      "note": {
+        "ko": "소멸시효 기간동안 권리를 행사하지 않으면 시효의 완성으로 권리가 소멸됨",
+        "vi": "Nếu không thực hiện quyền trong thời hiệu, quyền sẽ bị mất khi thời hiệu hoàn thành"
+      },
+      "exam_question": {
+        "question_ko": "다음 표의 ( )안에 들어갈 숫자를 순서대로 맞게 나열한 것은? (보험금 청구권은 ( )년, 배당금청구권은 ( )년, 보험료 반환청구권은 ( )년, 보험료 청구권은 ( )년간 행사하지 아니하면 소멸시효가 완성된다.)",
+        "question_vi": "Điền số phù hợp theo thứ tự: quyền yêu cầu bồi thường ( ) năm, cổ tức ( ) năm, hoàn phí ( ) năm, thu phí ( ) năm",
+        "options": [
+          "① 3, 3, 3, 3",
+          "② 3, 3, 3, 2",
+          "③ 3, 2, 2"
+        ],
+        "answer": "②",
+        "answer_vi": "② (3, 3, 3, 2)"
+      }
+    },
+    {
+      "id": "025",
+      "title_ko": "보험회사가 손해배상책임을 지는 경우",
+      "title_vi": "Các trường hợp công ty bảo hiểm chịu trách nhiệm bồi thường thiệt hại",
+      "category_ko": "보험회사 의무",
+      "category_vi": "Nghĩa vụ công ty bảo hiểm",
+      "key_points": [
+        {
+          "number": 1,
+          "ko": "임직원, 보험설계사 및 대리점의 책임있는 사유로 인한 손해 (재물손괴 X, 보험중개사 X)",
+          "vi": "Thiệt hại do nguyên nhân từ cán bộ nhân viên, đại lý, nhân viên tư vấn (không bao gồm thiệt hại tài sản, không bao gồm môi giới bảo hiểm)"
+        },
+        {
+          "number": 2,
+          "ko": "보험금 지급거절 및 지연지급의 사유가 없음을 알았는데도 불구하고 소를 제기하여 계약자, 피보험자 또는 보험수익자에게 손해를 가한 경우",
+          "vi": "Dù biết không có lý do từ chối hoặc trì hoãn chi trả nhưng vẫn khởi kiện gây thiệt hại cho người tham gia, người được bảo hiểm hoặc người thụ hưởng"
+        },
+        {
+          "number": 3,
+          "ko": "보험회사가 보험금 지급여부 및 지급금액에 관하여 공정을 잃은 합의로 손해를 가한 경우",
+          "vi": "Công ty bảo hiểm gây thiệt hại do thỏa thuận mất công bằng về việc chi trả và số tiền chi trả bảo hiểm"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험회사의 손해배상책임에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về trách nhiệm bồi thường thiệt hại của công ty bảo hiểm?",
+        "options": [
+          "① 보험중개사의 책임있는 사유로 계약자, 피보험자 및 보험수익자에게 발생된 손해에 대하여 연대배상의 책임이 있다.",
+          "② 보험회사는 보험금 지급거절 및 지연지급의 사유가 없음을 알았거나 알 수 있었는데도 불구하고 소를 제기하여 계약자, 피보험자 또는 보험수익자에게 손해를 가한 경우에는 그에 따른 손해를 배상할 책임이 있다.",
+          "③ 보험회사가 보험금 지급여부 및 지급금액에 관하여 현저하게 공정을 잃은 합의로 보험수익자에게 손해를 가한 경우에도 손해를 배상할 책임이 있다."
+        ],
+        "answer": "①",
+        "answer_vi": "① (Môi giới bảo hiểm không được liệt kê, chỉ có đại lý và nhân viên tư vấn)"
+      }
+    },
+    {
+      "id": "026",
+      "title_ko": "보험금 받는 방법의 변경, 보험나이",
+      "title_vi": "Thay đổi cách nhận bảo hiểm, tuổi bảo hiểm",
+      "category_ko": "계약 관리",
+      "category_vi": "Quản lý hợp đồng",
+      "payment_change": [
+        {
+          "type_ko": "일시금을 분할지급으로 전환",
+          "type_vi": "Chuyển từ trả một lần sang trả góp",
+          "detail_ko": "평균공시이율을 연단위 복리로 계산한 금액을 더하여 지급",
+          "detail_vi": "Cộng thêm số tiền tính theo lãi suất công bố bình quân phức theo năm"
+        },
+        {
+          "type_ko": "분할지급금액을 일시금으로 지급",
+          "type_vi": "Trả toàn bộ số tiền phân kỳ một lần",
+          "detail_ko": "평균공시이율을 연단위 복리로 할인한 금액 지급",
+          "detail_vi": "Trả số tiền chiết khấu theo lãi suất công bố bình quân phức theo năm"
+        }
+      ],
+      "insurance_age": {
+        "title_ko": "보험나이 계산",
+        "title_vi": "Tính tuổi bảo hiểm",
+        "rules": [
+          {
+            "ko": "피보험자의 나이는 보험나이 기준",
+            "vi": "Tuổi của người được bảo hiểm dựa trên tuổi bảo hiểm"
+          },
+          {
+            "ko": "실제 만 나이 기준: 6개월 미만 버림, 6개월 이상 1년으로 계산",
+            "vi": "Tính theo tuổi thực: bỏ qua nếu dưới 6 tháng, tính là 1 năm nếu từ 6 tháng trở lên"
+          },
+          {
+            "ko": "매년 계약해당일에 나이 증가",
+            "vi": "Tăng tuổi vào ngày tương ứng hàng năm"
+          },
+          {
+            "ko": "만 15세 미만자를 피보험자로 하여 사망을 보험금 지급사유로 한 계약은 실제 만 나이 적용, 계약은 무효",
+            "vi": "Hợp đồng lấy người dưới 15 tuổi làm người được bảo hiểm với sự kiện tử vong là vô hiệu, tính tuổi thực"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 보기에서 '김생명'씨의 보험나이에 대한 설명으로 틀린 것은? (출생일: 2006년 1월 1일, 보험계약일: 2020년 8월 1일)",
+        "question_vi": "Điều nào sau đây là SAI về tuổi bảo hiểm của 'Kim Saengmyeong'? (Ngày sinh: 01/01/2006, Ngày ký hợp đồng: 01/08/2020)",
+        "options": [
+          "① '김생명'씨의 보험나이는 15세이다.",
+          "② '김생명'씨가 보험나이 15세가 되는 날은 2020년 7월 1일이다.",
+          "③ '김생명'씨의 사망을 보험금 지급사유로 체결한 계약은 유효하다."
+        ],
+        "answer": "③",
+        "answer_vi": "③ (Hợp đồng vô hiệu vì dưới 15 tuổi)"
+      }
+    },
+    {
+      "id": "027",
+      "title_ko": "보험계약대출 및 상환",
+      "title_vi": "Vay và hoàn trả theo hợp đồng bảo hiểm",
+      "category_ko": "계약 관리",
+      "category_vi": "Quản lý hợp đồng",
+      "key_points": [
+        {
+          "ko": "해약환급금 범위 내에서 보험계약대출 가능",
+          "vi": "Có thể vay trong phạm vi tiền hoàn lại khi hủy hợp đồng"
+        },
+        {
+          "ko": "보험계약대출금과 보험계약대출이자는 언제든지 상환할 수 있음",
+          "vi": "Có thể hoàn trả gốc và lãi vay bảo hiểm bất cứ lúc nào"
+        },
+        {
+          "ko": "계약 해지시 해약환급금에서 보험계약대출 원금과 이자 차감 후 지급",
+          "vi": "Khi hủy hợp đồng, trừ gốc và lãi vay trước khi hoàn trả tiền hủy hợp đồng"
+        },
+        {
+          "ko": "보험수익자에게 보험계약대출 사실 통지 가능",
+          "vi": "Có thể thông báo cho người thụ hưởng về việc vay theo hợp đồng bảo hiểm"
+        },
+        {
+          "ko": "순수보장성보험 등 보험상품의 종류에 따라 보험계약대출 제한될 수 있음",
+          "vi": "Tùy loại sản phẩm bảo hiểm (bảo hiểm thuần túy v.v.), việc vay có thể bị hạn chế"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 보험계약대출에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về vay theo hợp đồng bảo hiểm?",
+        "options": [
+          "① 회사는 보험계약대출 사실을 피보험자에게 통지할 수 있다.",
+          "② 계약자는 보험계약대출 원리금을 언제든지 상환할 수 있다.",
+          "③ 계약 해지시 해약환급금에서 보험계약대출 원리금을 차감할 수 있다."
+        ],
+        "answer": "①",
+        "answer_vi": "① (Thông báo cho người thụ hưởng, không phải người được bảo hiểm)"
+      }
+    },
+    {
+      "id": "028",
+      "title_ko": "약관의 해석",
+      "title_vi": "Giải thích điều khoản bảo hiểm",
+      "category_ko": "계약 관리",
+      "category_vi": "Quản lý hợp đồng",
+      "principles": [
+        {
+          "ko": "작성자 불이익의 원칙 적용",
+          "vi": "Áp dụng nguyên tắc bất lợi cho người soạn thảo"
+        },
+        {
+          "ko": "약관은 공정하게 해석해야 하고",
+          "vi": "Điều khoản phải được giải thích công bằng"
+        },
+        {
+          "ko": "계약자에 따라 다르게 해석하지 않으며",
+          "vi": "Không giải thích khác nhau tùy người tham gia"
+        },
+        {
+          "ko": "계약자나 피보험자에게 불리한 내용은 확대하여 해석하지 않으며",
+          "vi": "Không mở rộng giải thích theo hướng bất lợi cho người tham gia hoặc người được bảo hiểm"
+        },
+        {
+          "ko": "약관의 뜻이 명확하지 않을 경우에는 계약자에게 유리하게 해석함",
+          "vi": "Khi điều khoản không rõ ràng, giải thích có lợi cho người tham gia"
+        },
+        {
+          "ko": "보험안내자료와 약관이 다를 경우: 계약자에게 유리한 내용으로 계약성립 간주",
+          "vi": "Nếu tài liệu hướng dẫn bảo hiểm khác với điều khoản: ưu tiên nội dung có lợi cho người tham gia"
+        }
+      ],
+      "personal_info": {
+        "title_ko": "개인정보 보호",
+        "title_vi": "Bảo vệ thông tin cá nhân",
+        "items": [
+          {
+            "ko": "계약자, 피보험자, 수익자의 동의없이 개인정보 활용 불가",
+            "vi": "Không thể sử dụng thông tin cá nhân mà không có sự đồng ý của người tham gia, người được bảo hiểm và người thụ hưởng"
+          },
+          {
+            "ko": "계약의 체결, 유지, 보험금 지급을 위하여 계약자 및 피보험자의 동의를 받아 보험관련단체 등에 개인정보 제공 가능",
+            "vi": "Có thể cung cấp thông tin cá nhân cho các tổ chức liên quan đến bảo hiểm khi có sự đồng ý của người tham gia và người được bảo hiểm để ký kết, duy trì hợp đồng và chi trả bảo hiểm"
+          }
+        ]
+      },
+      "exam_question": {
+        "question_ko": "다음 중 약관의 해석에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về giải thích điều khoản?",
+        "options": [
+          "① 회사는 신의성실의 원칙에 따라 공정하게 약관을 해석해야 한다.",
+          "② 회사는 약관을 계약자에 따라 다르게 해석할 수 있다.",
+          "③ 약관의 뜻이 명확하지 않을 경우 유관부서와 협의하여야 한다."
+        ],
+        "answer": "③",
+        "answer_vi": "③ (Khi không rõ ràng, giải thích có lợi cho người tham gia, không cần hiệp thương)"
+      }
+    },
+    {
+      "id": "029",
+      "title_ko": "언더라이팅",
+      "title_vi": "Bảo lãnh phát hành (Underwriting)",
+      "category_ko": "언더라이팅 및 클레임",
+      "category_vi": "Bảo lãnh và khiếu nại",
+      "definition": {
+        "ko": "언더라이팅 = 계약심사 = 계약선택",
+        "vi": "Underwriting = Thẩm định hợp đồng = Lựa chọn hợp đồng"
+      },
+      "purposes": [
+        {
+          "ko": "피보험자의 위험을 선택하여 적절한 위험집단으로 분류",
+          "vi": "Chọn lọc rủi ro của người được bảo hiểm và phân loại vào nhóm rủi ro phù hợp"
+        },
+        {
+          "ko": "위험분류 → 보험료 및 보험금 결정, 우량 피보험자 선택 등",
+          "vi": "Phân loại rủi ro → xác định phí và số tiền bảo hiểm, chọn người được bảo hiểm tốt"
+        },
+        {
+          "ko": "위험률차익 관리 → 보험회사 경영의 안정성 및 경쟁력 확보",
+          "vi": "Quản lý chênh lệch tỷ lệ rủi ro → đảm bảo ổn định và cạnh tranh trong kinh doanh bảo hiểm"
+        },
+        {
+          "ko": "계약자간 공평성 유지 및 선의의 계약자 보호",
+          "vi": "Duy trì sự công bằng giữa các người tham gia và bảo vệ người tham gia thiện chí"
+        }
+      ],
+      "stages": [
+        {
+          "stage_ko": "1차 선택",
+          "stage_vi": "Lựa chọn lần 1",
+          "detail_ko": "모집조직에 의한 선택 → 청약서 고지, 자필서명 안내, 언더라이팅 소개",
+          "detail_vi": "Lựa chọn bởi tổ chức tuyển dụng → hướng dẫn khai báo, ký tay và giới thiệu underwriting"
+        },
+        {
+          "stage_ko": "2차 선택",
+          "stage_vi": "Lựa chọn lần 2",
+          "detail_ko": "의적 진단 → 병원진단, 서류진단, 방문진단",
+          "detail_vi": "Chẩn đoán y tế → khám bệnh viện, chẩn đoán hồ sơ, khám tại nhà"
+        },
+        {
+          "stage_ko": "3차 선택",
+          "stage_vi": "Lựa chọn lần 3",
+          "detail_ko": "언더라이터 심사 → 계약인수여부, 인수조건 결정",
+          "detail_vi": "Thẩm định bởi underwriter → quyết định chấp nhận hợp đồng và điều kiện"
+        },
+        {
+          "stage_ko": "4차 선택",
+          "stage_vi": "Lựa chọn lần 4",
+          "detail_ko": "계약부활 확인 → 역선택동우리전산직접조사",
+          "detail_vi": "Xác nhận khôi phục hợp đồng → kiểm tra trực tiếp tránh lựa chọn bất lợi"
+        }
+      ],
+      "info_sources": {
+        "ko": "계약 전 알릴 의무 고지, 판매채널의 모집보고서, 의적 진단보고서, 계약적부 확인에 의한 직접조사 및 검사활동, 외부기관에 의한 정보 등",
+        "vi": "Khai báo nghĩa vụ trước hợp đồng, báo cáo tuyển dụng kênh bán, báo cáo chẩn đoán y tế, điều tra và kiểm tra trực tiếp, thông tin từ cơ quan bên ngoài"
+      },
+      "certification": {
+        "ko": "전문 언더라이터 육성(전문자격제도로 운영, CKLU → AKLU → FKLU)",
+        "vi": "Đào tạo underwriter chuyên nghiệp (vận hành theo hệ thống chứng chỉ: CKLU → AKLU → FKLU)"
+      },
+      "exam_question": {
+        "question_ko": "다음 중 언더라이팅에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về underwriting?",
+        "options": [
+          "① 피보험자의 위험을 선택·분류한다.",
+          "② 지나치게 엄격한 기준을 적용하면 회사의 경쟁력을 잃게 될 수도 있다.",
+          "③ 보험계약자의 위험도에 가장 적합한 상품을 설계함으로써 보험가입자간의 차별성을 유지할 수 있다."
+        ],
+        "answer": "③",
+        "answer_vi": "③ (Mục đích là duy trì công bằng, không phải tạo sự khác biệt)"
+      }
+    },
+    {
+      "id": "030",
+      "title_ko": "언더라이팅시 고려사항",
+      "title_vi": "Các yếu tố xem xét khi underwriting",
+      "category_ko": "언더라이팅 및 클레임",
+      "category_vi": "Bảo lãnh và khiếu nại",
+      "factors": [
+        {
+          "type_ko": "환경적 언더라이팅",
+          "type_vi": "Underwriting môi trường",
+          "detail_ko": "직업, 운전, 흡연, 음주, 취미, 거주지 위험 등 평가",
+          "detail_vi": "Đánh giá rủi ro nghề nghiệp, lái xe, hút thuốc, uống rượu, sở thích, nơi cư trú"
+        },
+        {
+          "type_ko": "신체적 언더라이팅",
+          "type_vi": "Underwriting thể chất",
+          "detail_ko": "피보험자의 연령, 성별, 현재 병증, 과거 병력 등 평가",
+          "detail_vi": "Đánh giá tuổi, giới tính, tình trạng bệnh hiện tại, tiền sử bệnh của người được bảo hiểm"
+        },
+        {
+          "type_ko": "도덕적 언더라이팅",
+          "type_vi": "Underwriting đạo đức",
+          "detail_ko": "고의로 보험사고 유발, 사고 과장, 부실 고지 등 도덕적 위험 점검(태만, 부주의 같은 도덕적 해이 포함)",
+          "detail_vi": "Kiểm tra rủi ro đạo đức: cố tình gây ra tai nạn, phóng đại thiệt hại, khai báo gian dối (bao gồm thiếu trách nhiệm đạo đức)"
+        },
+        {
+          "type_ko": "재정적 언더라이팅",
+          "type_vi": "Underwriting tài chính",
+          "detail_ko": "생활환경, 소득수준의 적정성 등 확인(역선택 예방, 실효 방지)",
+          "detail_vi": "Xác nhận môi trường sống, tính hợp lý của thu nhập (ngăn chặn lựa chọn bất lợi, tránh vô hiệu)"
+        }
+      ],
+      "note": {
+        "ko": "환경적 언더라이팅시 직업은 업계 표준직업분류 및 등급표에 따라 위험 등급을 비위험직 및 위험직 1~5등급으로 구분(실손상해는 1~3등급)",
+        "vi": "Khi underwriting môi trường, nghề nghiệp được phân loại theo bảng phân loại nghề nghiệp tiêu chuẩn: không rủi ro và rủi ro 1~5 cấp (thương tật thực tế 1~3 cấp)"
+      },
+      "exam_question": {
+        "question_ko": "다음 중 환경적 언더라이팅의 평가대상에 해당하는 것은?",
+        "question_vi": "Điều nào sau đây là đối tượng đánh giá underwriting môi trường?",
+        "options": [
+          "① 흡연 및 음주",
+          "② 기초 생활환경 및 소득수준",
+          "③ 현재 건강상태 및 과거병력"
+        ],
+        "answer": "①",
+        "answer_vi": "① (Hút thuốc và uống rượu là yếu tố môi trường)"
+      }
+    },
+    {
+      "id": "031",
+      "title_ko": "표준미달체 및 우량체 인수",
+      "title_vi": "Chấp nhận bảo hiểm cho đối tượng dưới tiêu chuẩn và ưu hạng",
+      "category_ko": "언더라이팅 및 클레임",
+      "category_vi": "Bảo lãnh và khiếu nại",
+      "note": {
+        "ko": "우리나라 언더라이팅은 표준체 중심",
+        "vi": "Underwriting ở Hàn Quốc lấy tiêu chuẩn (표준체) làm trung tâm"
+      },
+      "risk_levels": {
+        "title_ko": "위험 분류",
+        "title_vi": "Phân loại rủi ro",
+        "levels": [
+          { "ko": "표준미달체", "vi": "Dưới tiêu chuẩn" },
+          { "ko": "표준체", "vi": "Tiêu chuẩn" },
+          { "ko": "우량체", "vi": "Ưu hạng" }
+        ]
+      },
+      "substandard_methods": {
+        "title_ko": "표준미달체일 경우 보험계약 인수 방법",
+        "title_vi": "Phương pháp chấp nhận hợp đồng cho đối tượng dưới tiêu chuẩn",
+        "methods": [
+          { "ko": "보험료 할증", "vi": "Tăng phí bảo hiểm" },
+          { "ko": "보험금 삭감", "vi": "Giảm tiền bảo hiểm" },
+          {
+            "ko": "부담보: 특정 질병 또는 특정 신체부위를 보장에서 제외",
+            "vi": "Loại trừ: loại trừ bệnh cụ thể hoặc bộ phận cơ thể cụ thể khỏi bảo hiểm",
+            "note_ko": "특정질병 부담보: 발생부위와 관계없이 질병 자체를 부담보. 특정부위 부담보: 지정된 부위에서 발생한 질병에 대해 부담보",
+            "note_vi": "Loại trừ bệnh cụ thể: loại trừ chính bệnh đó bất kể vị trí. Loại trừ vùng cụ thể: loại trừ bệnh phát sinh ở vùng được chỉ định"
+          }
+        ]
+      },
+      "other_risks": [
+        {
+          "ko": "체감성 위험 ⇒ 보험금 삭감 (일정기간 내 보험사고 발생시 청하진 비율로 보험금 감액 지급)",
+          "vi": "Rủi ro giảm dần ⇒ giảm tiền bảo hiểm (chi trả theo tỷ lệ giảm nếu có sự kiện trong thời gian nhất định)"
+        },
+        {
+          "ko": "체증성 위험 ⇒ 보험료 할증",
+          "vi": "Rủi ro tăng dần ⇒ tăng phí bảo hiểm"
+        },
+        {
+          "ko": "항상성 위험 ⇒ 보험료 할증",
+          "vi": "Rủi ro ổn định ⇒ tăng phí bảo hiểm"
+        },
+        {
+          "ko": "우량체는 보험료 할인혜택 부여",
+          "vi": "Đối tượng ưu hạng được giảm phí bảo hiểm"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 체증성 위험에 적용하는 보험계약 인수 방법에 해당하는 것은?",
+        "question_vi": "Phương pháp nào áp dụng cho rủi ro tăng dần?",
+        "options": [
+          "① 보험료 할증",
+          "② 특정부위 부담보",
+          "③ 보험금 삭감"
+        ],
+        "answer": "①",
+        "answer_vi": "① (Tăng phí bảo hiểm)"
+      }
+    },
+    {
+      "id": "032",
+      "title_ko": "클레임",
+      "title_vi": "Khiếu nại bảo hiểm (Claim)",
+      "category_ko": "언더라이팅 및 클레임",
+      "category_vi": "Bảo lãnh và khiếu nại",
+      "definition": {
+        "ko": "보험금 청구에서 지급까지 이루어지는 일련의 업무 (보험금 청구 접수, 보험사고 조사, 조사건 심사, 수익자 확정, 보험금 지급업무 등)",
+        "vi": "Chuỗi công việc từ yêu cầu đến chi trả bảo hiểm (tiếp nhận yêu cầu, điều tra tai nạn, thẩm định, xác nhận người thụ hưởng, chi trả bảo hiểm)"
+      },
+      "claim_types": [
+        {
+          "ko": "보험금액 형태: 정액과 실손 클레임, 상호 보완적",
+          "vi": "Hình thức số tiền bảo hiểm: định mức và thực tế thiệt hại, bổ sung cho nhau"
+        },
+        {
+          "ko": "보험사고의 급부: 생존, 사망, 상해, 진단, 수술, 입원 등 클레임",
+          "vi": "Quyền lợi sự kiện bảo hiểm: sinh tồn, tử vong, thương tích, chẩn đoán, phẫu thuật, nhập viện"
+        },
+        {
+          "ko": "보험사고의 원인: 재해(사고)와 질병(내재) 클레임으로 구분",
+          "vi": "Nguyên nhân sự kiện: phân loại thành tai nạn (bên ngoài) và bệnh tật (bên trong)"
+        }
+      ],
+      "importance": [
+        {
+          "ko": "선의의 가입자 보호, 보험경영의 건전성 도모",
+          "vi": "Bảo vệ người tham gia thiện chí, đảm bảo lành mạnh kinh doanh bảo hiểm"
+        },
+        {
+          "ko": "클레임 업무가 잘못 처리되었을 경우 회사의 경영에 큰 영향을 미침",
+          "vi": "Nếu xử lý khiếu nại sai sẽ ảnh hưởng lớn đến kinh doanh của công ty"
+        }
+      ],
+      "required_qualities": [
+        {
+          "ko": "다양한 조사경험과 조사기법 및 심사기준 터득",
+          "vi": "Nắm vững kinh nghiệm điều tra, kỹ thuật và tiêu chuẩn thẩm định đa dạng"
+        },
+        {
+          "ko": "약관 및 보험관련 법·규정의 올바른 해석 및 적용 능력",
+          "vi": "Khả năng giải thích và áp dụng đúng điều khoản, luật và quy định liên quan đến bảo hiểm"
+        },
+        {
+          "ko": "상당한 수준의 의학지식 숙지",
+          "vi": "Nắm vững kiến thức y tế ở mức độ nhất định"
+        }
+      ],
+      "exam_question": {
+        "question_ko": "다음 중 클레임에 대한 설명으로 틀린 것은?",
+        "question_vi": "Điều nào sau đây là SAI về khiếu nại bảo hiểm?",
+        "options": [
+          "① 정액 클레임과 실손 클레임으로 구분한다.",
+          "② 클레임 전문가는 다양한 조사업무를 경험해야 한다.",
+          "③ 클레임은 보험금 청구 접수, 보험사고 조사, 조사건 심사, 수익자 확정, 보험금 지급업무, 보험금의 한도 결정 등을 수행한다."
+        ],
+        "answer": "①",
+        "answer_vi": "① (Phân loại là định mức và thực tế - bổ sung nhau, không phải phân biệt riêng rẽ)"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_001",
+      "name_ko": "보험금 처리",
+      "name_vi": "Xử lý bồi thường bảo hiểm",
+      "topic_ids": ["017", "018"]
+    },
+    {
+      "id": "cat_002",
+      "name_ko": "계약 의무",
+      "name_vi": "Nghĩa vụ hợp đồng",
+      "topic_ids": ["019", "020"]
+    },
+    {
+      "id": "cat_003",
+      "name_ko": "보험료 납입",
+      "name_vi": "Nộp phí bảo hiểm",
+      "topic_ids": ["021"]
+    },
+    {
+      "id": "cat_004",
+      "name_ko": "계약 관리",
+      "name_vi": "Quản lý hợp đồng",
+      "topic_ids": ["022", "023", "024", "026", "027", "028"]
+    },
+    {
+      "id": "cat_005",
+      "name_ko": "보험회사 의무",
+      "name_vi": "Nghĩa vụ công ty bảo hiểm",
+      "topic_ids": ["025"]
+    },
+    {
+      "id": "cat_006",
+      "name_ko": "언더라이팅 및 클레임",
+      "name_vi": "Bảo lãnh và khiếu nại",
+      "topic_ids": ["029", "030", "031", "032"]
+    }
+  ]
+}

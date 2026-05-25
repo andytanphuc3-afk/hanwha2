@@ -28,9 +28,35 @@ export interface CourseData {
 }
 
 import courseDataRaw from '@/data/001-016.json';
+import data017032 from '@/data/017-032.json';
+import data033046 from '@/data/033-046.json';
 
 export function getCourseData(): CourseData {
-  return courseDataRaw as unknown as CourseData;
+  const baseData = courseDataRaw as unknown as CourseData;
+  const lessons = [...baseData.lessons];
+
+  const processTopics = (jsonData: any) => {
+    if (jsonData && jsonData.topics && Array.isArray(jsonData.topics)) {
+      jsonData.topics.forEach((topic: any) => {
+        const { id, title_ko, title_vi, category_ko, category_vi, exam_question, ...content } = topic;
+        lessons.push({
+          id,
+          title: title_ko || topic.title || '',
+          title_vi: title_vi || topic.title_vi || '',
+          content,
+          exam_question
+        });
+      });
+    }
+  };
+
+  processTopics(data017032);
+  processTopics(data033046);
+
+  return {
+    ...baseData,
+    lessons
+  };
 }
 
 export function getLessonById(id: string): Lesson | undefined {

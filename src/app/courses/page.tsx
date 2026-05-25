@@ -1,9 +1,22 @@
 import Link from 'next/link';
 import { getCourseData } from '@/lib/data';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
 
-export default function CoursesPage() {
+export default async function CoursesPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
+  const resolvedSearchParams = await searchParams;
+  const pageParam = resolvedSearchParams?.page;
+  const currentPage = typeof pageParam === 'string' ? parseInt(pageParam, 10) : 1;
+  const itemsPerPage = 10;
+  
   const courseData = getCourseData();
+  const totalLessons = courseData.lessons.length;
+  const totalPages = Math.ceil(totalLessons / itemsPerPage);
+  
+  const validPage = Math.max(1, Math.min(currentPage, totalPages));
+  
+  const startIndex = (validPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentLessons = courseData.lessons.slice(startIndex, endIndex);
 
   return (
     <div style={{ position: 'relative', minHeight: '100vh' }}>
@@ -30,7 +43,7 @@ export default function CoursesPage() {
         </div>
 
         <div className="grid grid-cols-2 gap-6">
-          {courseData.lessons.map((lesson) => (
+          {currentLessons.map((lesson) => (
             <Link href={`/courses/${lesson.id}`} key={lesson.id} className="card lesson-card-hover flex flex-col justify-between" style={{ cursor: 'pointer' }}>
               <div>
                 <div className="flex items-center gap-2 mb-4">
@@ -46,6 +59,35 @@ export default function CoursesPage() {
             </Link>
           ))}
         </div>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center gap-4 mt-12">
+            {validPage > 1 ? (
+              <Link href={`/courses?page=${validPage - 1}`} className="btn btn-outline flex items-center gap-1" style={{ padding: '0.5rem 1rem' }}>
+                <ChevronLeft size={16} /> Trang trước
+              </Link>
+            ) : (
+              <span className="btn flex items-center gap-1 opacity-50 cursor-not-allowed" style={{ padding: '0.5rem 1rem', border: '1px solid #ccc', color: '#888', backgroundColor: 'transparent' }}>
+                <ChevronLeft size={16} /> Trang trước
+              </span>
+            )}
+            
+            <span className="font-bold">
+              Trang {validPage} / {totalPages}
+            </span>
+            
+            {validPage < totalPages ? (
+              <Link href={`/courses?page=${validPage + 1}`} className="btn btn-outline flex items-center gap-1" style={{ padding: '0.5rem 1rem' }}>
+                Trang tiếp <ChevronRight size={16} />
+              </Link>
+            ) : (
+              <span className="btn flex items-center gap-1 opacity-50 cursor-not-allowed" style={{ padding: '0.5rem 1rem', border: '1px solid #ccc', color: '#888', backgroundColor: 'transparent' }}>
+                Trang tiếp <ChevronRight size={16} />
+              </span>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

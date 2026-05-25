@@ -1,0 +1,833 @@
+{
+  "meta": {
+    "title": "2026 생명보험이란 무엇인가 - Essential 113題",
+    "title_vi": "2026 Bảo hiểm nhân thọ là gì - Essential 113 câu hỏi",
+    "book": "제1편 보험이론 및 윤리 / 제2편 보험법규",
+    "book_vi": "Phần 1: Lý thuyết & Đạo đức Bảo hiểm / Phần 2: Luật Bảo hiểm"
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "제1편 보험이론 및 윤리",
+      "title_vi": "Phần 1: Lý thuyết và Đạo đức Bảo hiểm",
+      "topics": [
+        {
+          "id": "033",
+          "number": "033",
+          "title": "보험회사 영업행위 윤리준칙",
+          "title_vi": "Quy tắc đạo đức hoạt động kinh doanh của công ty bảo hiểm",
+          "content": [
+            {
+              "category": "제정",
+              "category_vi": "Ban hành",
+              "items": [
+                {
+                  "ko": "「보험회사 영업행위 윤리준칙」 제정(2018년)",
+                  "vi": "Ban hành 「Quy tắc đạo đức hoạt động kinh doanh của công ty bảo hiểm」 (năm 2018)"
+                },
+                {
+                  "ko": "소비자 권익제고 위한 기본 지침",
+                  "vi": "Hướng dẫn cơ bản nhằm nâng cao quyền lợi người tiêu dùng"
+                }
+              ]
+            },
+            {
+              "category": "보험소비자와의 정보불균형 해소",
+              "category_vi": "Giải quyết bất cân xứng thông tin với người tiêu dùng bảo hiểm",
+              "items": [
+                {
+                  "ko": "충실한 설명의무, 신의성실 원칙, 적합한 상품 권유, 부당 영업행위 금지, 보험계약 유지·관리 강화",
+                  "vi": "Nghĩa vụ giải thích đầy đủ, nguyên tắc thành thật, giới thiệu sản phẩm phù hợp, cấm hành vi kinh doanh bất chính, tăng cường duy trì và quản lý hợp đồng bảo hiểm"
+                }
+              ]
+            },
+            {
+              "category": "보험소비자에 대한 정보 제공 강화",
+              "category_vi": "Tăng cường cung cấp thông tin cho người tiêu dùng bảo hiểm",
+              "items": [
+                {
+                  "ko": "정보의 적정성 및 시의성 확보, 계약체결·유지 단계의 정보 제공",
+                  "vi": "Đảm bảo tính đầy đủ và kịp thời của thông tin, cung cấp thông tin ở giai đoạn ký kết và duy trì hợp đồng"
+                },
+                {
+                  "ko": "1년 이상 유지된 계약에 대해 연 1회 이상 보험계약관리내용 제공 (변액보험은 분기별 1회 이상)",
+                  "vi": "Đối với hợp đồng duy trì từ 1 năm trở lên: cung cấp nội dung quản lý hợp đồng ít nhất 1 lần/năm (bảo hiểm biến động: ít nhất 1 lần/quý)"
+                }
+              ]
+            },
+            {
+              "category": "모집질서 개선을 통한 보험소비자 보호",
+              "category_vi": "Bảo vệ người tiêu dùng bảo hiểm thông qua cải thiện trật tự tuyển dụng",
+              "items": [
+                {
+                  "ko": "완전판매 문화 정착",
+                  "vi": "Thiết lập văn hóa bán hàng hoàn toàn minh bạch"
+                },
+                {
+                  "ko": "모집종사자 위촉시 보험협회의 'e-클린보험서비스'를 활용하여 모집경력 확인",
+                  "vi": "Khi bổ nhiệm nhân viên tuyển dụng, xác nhận lịch sử tuyển dụng qua 'dịch vụ e-Clean Insurance' của Hiệp hội Bảo hiểm"
+                },
+                {
+                  "ko": "보험회사와 모집종사자의 불공정행위 금지",
+                  "vi": "Cấm hành vi không công bằng của công ty bảo hiểm và nhân viên tuyển dụng"
+                },
+                {
+                  "ko": "모집종사자 전문성 제고",
+                  "vi": "Nâng cao chuyên môn của nhân viên tuyển dụng"
+                }
+              ]
+            },
+            {
+              "category": "개인정보 보호",
+              "category_vi": "Bảo vệ thông tin cá nhân",
+              "items": [
+                {
+                  "ko": "최소한의 정보만 수집·이용, 고객 동의가 있는 경우를 제외하고 제3자에게 제공 금지, 목적 달성 후 정보 파기",
+                  "vi": "Chỉ thu thập và sử dụng thông tin tối thiểu cần thiết, cấm cung cấp cho bên thứ ba trừ khi có sự đồng ý của khách hàng, hủy thông tin sau khi đạt mục đích"
+                }
+              ]
+            },
+            {
+              "category": "소비자보호 총괄책임자 지정",
+              "category_vi": "Chỉ định người chịu trách nhiệm tổng thể về bảo vệ người tiêu dùng",
+              "items": [
+                {
+                  "ko": "판매 관련 평가 및 보상체계 설계 → 판매직원과 보험소비자 이해상충 방지",
+                  "vi": "Thiết kế hệ thống đánh giá và khen thưởng liên quan đến bán hàng → Ngăn ngừa xung đột lợi ích giữa nhân viên bán hàng và người tiêu dùng bảo hiểm"
+                }
+              ]
+            },
+            {
+              "category": "분쟁 방지 및 민원 처리",
+              "category_vi": "Phòng ngừa tranh chấp và xử lý khiếu nại",
+              "items": [
+                {
+                  "ko": "불완전판매 관리",
+                  "vi": "Quản lý bán hàng không hoàn thiện"
+                },
+                {
+                  "ko": "민원관리시스템 구축 (다양한 민원접수 채널, 빠른 민원해결이 가능한 전산시스템 구축)",
+                  "vi": "Xây dựng hệ thống quản lý khiếu nại (thiết lập hệ thống CNTT với nhiều kênh tiếp nhận khiếu nại và giải quyết nhanh chóng)"
+                },
+                {
+                  "ko": "분쟁 해결 부서 지정 및 분쟁예방 대책 마련 (분쟁 발생시 분쟁해결을 위한 내부절차 안내)",
+                  "vi": "Chỉ định bộ phận giải quyết tranh chấp và lập kế hoạch phòng ngừa tranh chấp (hướng dẫn quy trình nội bộ khi xảy ra tranh chấp)"
+                }
+              ]
+            },
+            {
+              "category": "내부신고제도 운영",
+              "category_vi": "Vận hành hệ thống tố cáo nội bộ",
+              "items": []
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 영업행위 윤리준칙을 위반한 사례에 해당하지 않는 것은?",
+              "question_vi": "Trong các trường hợp sau, trường hợp nào KHÔNG vi phạm quy tắc đạo đức hoạt động kinh doanh?",
+              "options": [
+                {
+                  "no": 1,
+                  "ko": "소비자에게 적합한 상품을 권유하기 위해 고객의 동의를 얻어 고객이 이전에 투자한 상품의 이력도 함께 파악한다.",
+                  "vi": "Tìm hiểu lịch sử đầu tư trước đây của khách hàng với sự đồng ý của họ để giới thiệu sản phẩm phù hợp."
+                },
+                {
+                  "no": 2,
+                  "ko": "더 나은 서비스를 위해 설계사가 임의로 작성한 자료는 별도의 보험회사 승인은 불필요하다.",
+                  "vi": "Tài liệu do tư vấn viên tự soạn thảo để cung cấp dịch vụ tốt hơn không cần sự chấp thuận riêng của công ty bảo hiểm."
+                },
+                {
+                  "no": 3,
+                  "ko": "계약자에게 불리한 정보는 보험설계사가 안내할 수 없으며, 보험회사가 이메일, SMS 등을 통해 직접 안내해야 한다.",
+                  "vi": "Thông tin bất lợi cho người ký hợp đồng không thể được tư vấn viên thông báo mà công ty bảo hiểm phải thông báo trực tiếp qua email, SMS, v.v."
+                }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Đây là hành vi hợp lệ khi có sự đồng ý của khách hàng"
+            },
+            {
+              "question_ko": "다음 중 분쟁 방지 및 민원 처리에 대한 설명으로 틀린 것은?",
+              "question_vi": "Trong các giải thích sau về phòng ngừa tranh chấp và xử lý khiếu nại, điều nào SAI?",
+              "options": [
+                {
+                  "no": 1,
+                  "ko": "불완전판매가 발생하지 않도록 보험회사의 관점에서 판매과정을 지속적으로 관리해야 한다.",
+                  "vi": "Phải liên tục quản lý quy trình bán hàng từ góc độ công ty bảo hiểm để không xảy ra bán hàng không hoàn thiện."
+                },
+                {
+                  "no": 2,
+                  "ko": "보험회사는 독립적이고 공정한 민원 처리와 구제절차를 마련해야 한다.",
+                  "vi": "Công ty bảo hiểm phải chuẩn bị quy trình xử lý khiếu nại và cứu trợ độc lập và công bằng."
+                },
+                {
+                  "no": 3,
+                  "ko": "분쟁 발생시 보험소비자에게 분쟁해결에 관한 내부절차를 알려야 한다.",
+                  "vi": "Khi xảy ra tranh chấp, phải thông báo cho người tiêu dùng bảo hiểm về quy trình nội bộ giải quyết tranh chấp."
+                }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Phải quản lý từ góc độ người tiêu dùng, không phải từ góc độ công ty"
+            }
+          ]
+        },
+        {
+          "id": "034",
+          "number": "034",
+          "title": "보험인 윤리강령, 윤리의 중요성, 보험설계사의 자세",
+          "title_vi": "Bộ quy tắc đạo đức người bảo hiểm, tầm quan trọng của đạo đức, thái độ của tư vấn viên bảo hiểm",
+          "content": [
+            {
+              "category": "보험인의 윤리강령(공신성기준)",
+              "category_vi": "Bộ quy tắc đạo đức người bảo hiểm (Tiêu chuẩn uy tín)",
+              "items": [
+                {
+                  "ko": "공공성, 공신력 제고, 성실·봉사, 기술개발, 준법",
+                  "vi": "Tính công cộng, nâng cao uy tín, thành thật và phục vụ, phát triển kỹ thuật, tuân thủ pháp luật"
+                }
+              ]
+            },
+            {
+              "category": "고객 신뢰",
+              "category_vi": "Niềm tin khách hàng",
+              "items": [
+                {
+                  "ko": "고객들은 보험약관보다 보험설계사를 더 신뢰함",
+                  "vi": "Khách hàng tin tưởng tư vấn viên bảo hiểm hơn là điều khoản bảo hiểm"
+                }
+              ]
+            },
+            {
+              "category": "법규·규범 준수",
+              "category_vi": "Tuân thủ pháp luật và quy định",
+              "items": [
+                {
+                  "ko": "「상법」, 보험편, 「보험업법」, 「금융소비자 보호에 관한 법률」 등, 사회의 통념과 윤리규범 및 상식 등 준수",
+                  "vi": "Tuân thủ 「Bộ luật Thương mại」, phần bảo hiểm, 「Luật Kinh doanh Bảo hiểm」, 「Luật Bảo vệ Người tiêu dùng Tài chính」, v.v., cùng với thông lệ xã hội, quy tắc đạo đức và lương thức chung"
+                }
+              ]
+            },
+            {
+              "category": "사명감",
+              "category_vi": "Sứ mệnh",
+              "items": [
+                {
+                  "ko": "단순히 상품판매에 그치지 않고 부족한 보장을 보완, 가족 구성원별 보장설계를 제안하는 등 다양한 서비스와 정보 제공",
+                  "vi": "Không chỉ bán sản phẩm đơn thuần mà còn bổ sung bảo vệ còn thiếu, đề xuất thiết kế bảo vệ cho từng thành viên gia đình và cung cấp nhiều dịch vụ và thông tin đa dạng"
+                }
+              ]
+            },
+            {
+              "category": "전문성",
+              "category_vi": "Chuyên môn",
+              "items": [
+                {
+                  "ko": "보험상품은 물론 관련 법규, 언더라이팅, 세무, 부동산 등 보험과 관련된 다양한 분야의 전문지식 함양",
+                  "vi": "Trau dồi kiến thức chuyên môn trong nhiều lĩnh vực liên quan đến bảo hiểm như sản phẩm bảo hiểm, luật pháp liên quan, bảo lãnh phát hành, thuế, bất động sản, v.v."
+                }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 보기의 설명에 해당하는 보험설계사의 자세는 무엇인가?",
+              "question_vi": "Thái độ của tư vấn viên bảo hiểm được mô tả trong đoạn dưới đây là gì?",
+              "context_ko": "단순히 상품을 판매하는 것에 그치지 않고 기존 보험을 분석하여 부족한 보장을 보완하거나, 고객의 가족 구성원별 보장설계를 제안하는 등 고객에게 다양한 서비스와 정보를 제공하는 것",
+              "context_vi": "Không chỉ đơn giản là bán sản phẩm mà còn phân tích bảo hiểm hiện có để bổ sung bảo vệ còn thiếu, đề xuất thiết kế bảo vệ theo từng thành viên gia đình khách hàng, và cung cấp cho khách hàng nhiều dịch vụ và thông tin đa dạng",
+              "options": [
+                { "no": 1, "ko": "관련법규 준수와 윤리규범 실천", "vi": "Tuân thủ pháp luật liên quan và thực hành quy tắc đạo đức" },
+                { "no": 2, "ko": "보험설계사로서의 사명감", "vi": "Sứ mệnh với tư cách là tư vấn viên bảo hiểm" },
+                { "no": 3, "ko": "전문성 개발", "vi": "Phát triển chuyên môn" }
+              ],
+              "answer": 2,
+              "answer_vi": "② - Đây là biểu hiện của sứ mệnh vượt ra ngoài việc đơn giản bán hàng"
+            }
+          ]
+        },
+        {
+          "id": "035",
+          "number": "035",
+          "title": "보험설계사의 보험업에 대한 책임",
+          "title_vi": "Trách nhiệm của tư vấn viên bảo hiểm đối với ngành bảo hiểm",
+          "content": [
+            {
+              "category": "3대 기본지키기",
+              "category_vi": "3 nguyên tắc cơ bản cần tuân thủ",
+              "items": [
+                {
+                  "ko": "위반시 계약성립일 기준 3개월 이내 취소 가능",
+                  "vi": "Có thể hủy trong vòng 3 tháng kể từ ngày ký kết hợp đồng nếu vi phạm",
+                  "sub_items": [
+                    { "ko": "① 보험약관 교부 및 중요한 내용 설명", "vi": "① Giao điều khoản bảo hiểm và giải thích nội dung quan trọng" },
+                    { "ko": "② 청약서 사본(부본) 전달", "vi": "② Giao bản sao (bản phụ) đơn bảo hiểm" },
+                    { "ko": "③ 자필서명 안내 및 확인(반드시 직접 서명을 받아야 함)", "vi": "③ Hướng dẫn và xác nhận chữ ký tay (bắt buộc phải lấy chữ ký trực tiếp)" }
+                  ]
+                }
+              ]
+            },
+            {
+              "category": "부당한 보험계약 전환(승환계약) 금지",
+              "category_vi": "Cấm chuyển đổi hợp đồng bảo hiểm bất hợp pháp (hợp đồng thay thế)",
+              "items": [
+                {
+                  "ko": "고객 전환시 : 비교·설명 및 비교설명확인서에 자필서명 필요",
+                  "vi": "Khi chuyển đổi cho khách hàng: cần so sánh, giải thích và chữ ký tay trên xác nhận so sánh giải thích"
+                }
+              ]
+            },
+            {
+              "category": "비보리직 판매행위 금지",
+              "category_vi": "Cấm hành vi bán hàng phi đạo đức",
+              "items": [
+                { "ko": "보험료 대납행위 등", "vi": "Trả thay phí bảo hiểm, v.v." }
+              ]
+            },
+            {
+              "category": "불법·허위·과장광고행위 금지",
+              "category_vi": "Cấm quảng cáo bất hợp pháp, gian dối, phóng đại",
+              "items": [
+                { "ko": "명확, 공정한 상품광고", "vi": "Quảng cáo sản phẩm rõ ràng và công bằng" }
+              ]
+            },
+            {
+              "category": "회사(또는 보험대리점) 승인자료 사용",
+              "category_vi": "Sử dụng tài liệu được công ty (hoặc đại lý bảo hiểm) phê duyệt",
+              "items": [
+                { "ko": "설계사 임의의 수정 및 변경 금지 / 관계 법령에 의해 부여된 보험인내자료만 사용", "vi": "Cấm tư vấn viên tự ý sửa đổi và thay đổi / Chỉ sử dụng tài liệu nội bộ bảo hiểm được cấp theo quy định pháp luật" }
+              ]
+            },
+            {
+              "category": "편법적 영업행위 금지",
+              "category_vi": "Cấm hành vi kinh doanh lách luật",
+              "items": [
+                { "ko": "대출고객에게 금융상품가입 강요 금지", "vi": "Cấm ép buộc khách hàng vay vốn tham gia sản phẩm tài chính" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험설계사가 지켜야 할 3대 기본지키기에 해당하는 것은?",
+              "question_vi": "Trong các mục dưới đây, mục nào thuộc 3 nguyên tắc cơ bản mà tư vấn viên bảo hiểm phải tuân thủ?",
+              "options": [
+                { "no": 1, "ko": "보험약관 교부 및 중요한 내용 설명", "vi": "Giao điều khoản bảo hiểm và giải thích nội dung quan trọng" },
+                { "no": 2, "ko": "법규 및 회사규정 준수", "vi": "Tuân thủ pháp luật và quy định công ty" },
+                { "no": 3, "ko": "고객정보의 보호", "vi": "Bảo vệ thông tin khách hàng" }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Thuộc 3 nguyên tắc cơ bản (3대 기본지키기)"
+            }
+          ]
+        },
+        {
+          "id": "036",
+          "number": "036",
+          "title": "보험설계사의 보험회사에 대한 책임",
+          "title_vi": "Trách nhiệm của tư vấn viên bảo hiểm đối với công ty bảo hiểm",
+          "content": [
+            {
+              "category": "주요 책임 사항",
+              "category_vi": "Các trách nhiệm chính",
+              "items": [
+                { "ko": "법규 및 회사규정 준수", "vi": "Tuân thủ pháp luật và quy định công ty" },
+                { "ko": "보험료 수령(회사명의 영수증 교부, 일일수금 금지)시 회사계좌로 즉시 이체", "vi": "Khi thu phí bảo hiểm (phát hành biên lai mang tên công ty, cấm thu hàng ngày): chuyển ngay vào tài khoản công ty" },
+                { "ko": "언더라이팅을 위한 정확한 정보 제공", "vi": "Cung cấp thông tin chính xác cho mục đích bảo lãnh phát hành" },
+                { "ko": "고객불만 처리(접수시 회사에 지체없이 고지) → 구두, 문서, 전화 접수 모두 해당", "vi": "Xử lý khiếu nại khách hàng (thông báo ngay cho công ty khi tiếp nhận) → Áp dụng cho cả tiếp nhận miệng, văn bản và điện thoại" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험설계사의 보험료 수령에 대한 설명으로 맞는 것은?",
+              "question_vi": "Trong các giải thích sau về việc thu phí bảo hiểm của tư vấn viên, điều nào ĐÚNG?",
+              "options": [
+                { "no": 1, "ko": "보험설계사의 서명이 있는 영수증을 교부한다.", "vi": "Phát hành biên lai có chữ ký của tư vấn viên bảo hiểm." },
+                { "no": 2, "ko": "수령한 보험료는 보험회사 계좌로 즉시 입금한다.", "vi": "Nạp ngay phí bảo hiểm đã thu vào tài khoản công ty bảo hiểm." },
+                { "no": 3, "ko": "고객이 요구할 경우 일일수금(입수식 통장 수금 행위) 방법으로 보험료를 수령할 수 있다.", "vi": "Nếu khách hàng yêu cầu, có thể thu phí bảo hiểm theo phương thức thu hàng ngày." }
+              ],
+              "answer": 2,
+              "answer_vi": "② - Phí bảo hiểm phải được chuyển ngay vào tài khoản công ty"
+            }
+          ]
+        },
+        {
+          "id": "037",
+          "number": "037",
+          "title": "보험설계사의 고객에 대한 책임",
+          "title_vi": "Trách nhiệm của tư vấn viên bảo hiểm đối với khách hàng",
+          "content": [
+            {
+              "category": "주요 책임 사항",
+              "category_vi": "Các trách nhiệm chính",
+              "items": [
+                { "ko": "적합한 상품의 판매", "vi": "Bán sản phẩm phù hợp" },
+                { "ko": "회사 및 상품소개", "vi": "Giới thiệu công ty và sản phẩm" },
+                { "ko": "고객정보 보호 (주민등록번호는 고객의 동의를 받았더라도 사용 불가)", "vi": "Bảo vệ thông tin khách hàng (không được sử dụng số CMND/CCCD dù đã có sự đồng ý của khách hàng)" },
+                { "ko": "고객관리 의무", "vi": "Nghĩa vụ quản lý khách hàng" }
+              ]
+            },
+            {
+              "category": "보험설계사가 고객에게 적합한 상품을 판매한 경우 효과",
+              "category_vi": "Hiệu quả khi tư vấn viên bảo hiểm bán sản phẩm phù hợp cho khách hàng",
+              "items": [
+                { "ko": "① 보험계약 유지율 개선", "vi": "① Cải thiện tỷ lệ duy trì hợp đồng bảo hiểm" },
+                { "ko": "② 민원감소", "vi": "② Giảm khiếu nại" },
+                { "ko": "③ 고객의 신뢰 확보", "vi": "③ Đảm bảo niềm tin của khách hàng" }
+              ]
+            },
+            {
+              "category": "사회에 대한 책임",
+              "category_vi": "Trách nhiệm đối với xã hội",
+              "items": [
+                { "ko": "다양한 사회공헌활동 등", "vi": "Các hoạt động đóng góp xã hội đa dạng, v.v." }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음의 보험설계사의 고객에 대한 책임 내용 중 틀린 것은?",
+              "question_vi": "Trong các nội dung trách nhiệm của tư vấn viên bảo hiểm đối với khách hàng sau đây, điều nào SAI?",
+              "options": [
+                { "no": 1, "ko": "고객의 주민등록번호는 고객의 동의를 받은 이후에 마케팅 목적으로 사용할 수 있다.", "vi": "Số đăng ký cư dân của khách hàng có thể sử dụng cho mục đích marketing sau khi có sự đồng ý của khách hàng." },
+                { "no": 2, "ko": "보험계약의 유지, 부활, 보험금 지급 등 판매 이후에도 지속적인 고객관리에 주의를 기울여야 한다.", "vi": "Phải chú ý đến quản lý khách hàng liên tục sau khi bán, bao gồm duy trì, phục hồi hợp đồng bảo hiểm, trả tiền bảo hiểm, v.v." },
+                { "no": 3, "ko": "고객에게 보험료·보험금·수익률 등 상품과 관련된 내용을 안내할 때는 객관적인 근거자료를 바탕으로 해야 한다.", "vi": "Khi hướng dẫn khách hàng về các nội dung liên quan đến sản phẩm như phí bảo hiểm, tiền bảo hiểm, tỷ suất lợi nhuận, v.v., phải dựa trên tài liệu bằng chứng khách quan." }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Số CMND/CCCD không được sử dụng cho mục đích marketing dù đã có sự đồng ý"
+            }
+          ]
+        },
+        {
+          "id": "038",
+          "number": "038",
+          "title": "보험사기의 개념",
+          "title_vi": "Khái niệm gian lận bảo hiểm",
+          "content": [
+            {
+              "category": "정의",
+              "category_vi": "Định nghĩa",
+              "items": [
+                { "ko": "보험사고의 발생, 원인 또는 내용에 관하여 보험자를 기망하여 보험금을 청구하는 행위 / 제3자로 하여금 보험금 취득하게 하는 행위도 포함", "vi": "Hành vi lừa dối người bảo hiểm về sự phát sinh, nguyên nhân hoặc nội dung của sự kiện bảo hiểm để yêu cầu bồi thường / Bao gồm cả hành vi để người thứ ba thu được tiền bảo hiểm" }
+              ]
+            },
+            {
+              "category": "연성사기",
+              "category_vi": "Gian lận mềm (Soft Fraud)",
+              "items": [
+                { "ko": "보험사고 피해를 과장하여 보험금 청구 또는 보험료를 낮추기 위해 보험자를 기망하는 것", "vi": "Phóng đại thiệt hại sự kiện bảo hiểm để yêu cầu bồi thường hoặc lừa dối người bảo hiểm để giảm phí bảo hiểm" },
+                { "ko": "경미한 질병·상해임에도 장기간 입원, 보험계약시 고지의무 위반 등", "vi": "Nhập viện dài ngày dù chỉ bị bệnh/thương tật nhẹ, vi phạm nghĩa vụ thông báo khi ký hợp đồng bảo hiểm, v.v." }
+              ]
+            },
+            {
+              "category": "경성사기",
+              "category_vi": "Gian lận cứng (Hard Fraud)",
+              "items": [
+                { "ko": "보험금을 받기 위해 계획적·의도적으로 보험사고를 조작하는 것", "vi": "Cố tình và có kế hoạch giả tạo sự kiện bảo hiểm để nhận tiền bảo hiểm" },
+                { "ko": "피보험자를 해하여 보험금을 타내는 행위, 생존자를 사망자로 위장하여 보험금을 타려는 행위 등", "vi": "Hành vi gây hại cho người được bảo hiểm để lấy tiền bảo hiểm, giả mạo người còn sống là đã chết để lấy tiền bảo hiểm, v.v." }
+              ]
+            },
+            {
+              "category": "「보험사기방지특별법」",
+              "category_vi": "「Luật Phòng chống Gian lận Bảo hiểm Đặc biệt」",
+              "items": [
+                { "ko": "10년 이하 징역, 5천만원 이하 벌금", "vi": "Tù đến 10 năm, phạt tiền đến 50 triệu won" },
+                { "ko": "2016년, 고액사기 가중처벌, 미수범 처벌, 상습범 가중처벌", "vi": "Năm 2016: tăng nặng hình phạt gian lận số tiền lớn, xử phạt tội chưa đạt, tăng nặng hình phạt tội tái phạm" },
+                { "ko": "2024년 개정 내용 : 징역형과 벌금형 병과 가능 / 보험사기행위 알선·유인·권유·광고 금지", "vi": "Nội dung sửa đổi năm 2024: có thể áp dụng đồng thời hình phạt tù và phạt tiền / Cấm môi giới, dụ dỗ, khuyến khích và quảng cáo hành vi gian lận bảo hiểm" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 「보험사기방지특별법」상 보험사기행위에 해당할 경우에 받을 수 있는 처벌로 맞는 것은? (상습범이 아닌 경우)",
+              "question_vi": "Trong các hình phạt sau, hình phạt nào đúng cho hành vi gian lận bảo hiểm theo 「Luật Phòng chống Gian lận Bảo hiểm Đặc biệt」? (Trường hợp không phải tái phạm)",
+              "options": [
+                { "no": 1, "ko": "징역 3년", "vi": "Tù 3 năm" },
+                { "no": 2, "ko": "벌금 5억", "vi": "Phạt 500 triệu won" },
+                { "no": 3, "ko": "재산추징", "vi": "Tịch thu tài sản" }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Phạt tù đến 10 năm (3 năm nằm trong giới hạn này)"
+            }
+          ]
+        },
+        {
+          "id": "039",
+          "number": "039",
+          "title": "보험사기의 유형",
+          "title_vi": "Các loại hình gian lận bảo hiểm",
+          "content": [
+            {
+              "category": "보험사기 유형",
+              "category_vi": "Các loại hình gian lận bảo hiểm",
+              "items": [
+                { "ko": "① 사기적인 보험계약 체결 (암진단 사실을 숨기는 행위, 대리진단 행위 등)", "vi": "① Ký kết hợp đồng bảo hiểm gian dối (hành vi che giấu chẩn đoán ung thư, hành vi chẩn đoán thay, v.v.)" },
+                { "ko": "② 보험사고의 고의적 유발 (고의적 살인, 방화, 자해 - 가장 악의적인 유형)", "vi": "② Cố ý gây ra sự kiện bảo hiểm (cố ý giết người, phóng hỏa, tự gây thương tích - loại ác ý nhất)" },
+                { "ko": "③ 보험사고의 위장, 허위사고 (사망한 것으로 위장, 허위 진단서 발급 등)", "vi": "③ Giả tạo sự kiện bảo hiểm, sự kiện giả mạo (giả chết, cấp giấy chứng nhận y tế giả, v.v.)" },
+                { "ko": "④ 보험금 과다청구(피해과장) 등 (장해등급 상향, 통원을 입원으로 서류 조작)", "vi": "④ Yêu cầu bồi thường quá mức (phóng đại thiệt hại) v.v. (nâng cấp khuyết tật, làm giả hồ sơ từ ngoại trú thành nội trú)" }
+              ]
+            },
+            {
+              "category": "추가 정보",
+              "category_vi": "Thông tin bổ sung",
+              "items": [
+                { "ko": "생명보험 보험사기는 강력범죄와 동반될 가능성이 높고, 손해보험 보험사기는 화재보험, 자동차보험이 보험사기의 주 대상", "vi": "Gian lận bảo hiểm nhân thọ có khả năng đi kèm với tội phạm nghiêm trọng cao; Gian lận bảo hiểm phi nhân thọ: bảo hiểm hỏa hoạn, bảo hiểm ô tô là mục tiêu chính" },
+                { "ko": "제3보험이 도입되면서 실손의료보험을 악용한 허위·과다입원 및 수술(진료) 관련 보험사기가 증가", "vi": "Kể từ khi đưa vào bảo hiểm thứ ba, gian lận bảo hiểm liên quan đến nhập viện giả/quá mức và phẫu thuật (điều trị) lạm dụng bảo hiểm bảo hiểm chi phí y tế thực tế tăng lên" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험사기 유형이 다른 것은?",
+              "question_vi": "Trong các loại hình gian lận bảo hiểm sau, loại nào KHÁC với các loại còn lại?",
+              "options": [
+                { "no": 1, "ko": "피보험자 본인이 고의로 손목·발목 등 신체 일부를 훼손하는 행위", "vi": "Người được bảo hiểm tự cố ý làm tổn thương một phần cơ thể như cổ tay, mắt cá chân" },
+                { "no": 2, "ko": "피보험자가 아닌 제3자를 통한 대리진단으로 다수의 보험을 가입하는 행위", "vi": "Tham gia nhiều bảo hiểm thông qua chẩn đoán thay bởi người thứ ba không phải là người được bảo hiểm" },
+                { "no": 3, "ko": "보험계약시 이미 사망한 사람을 피보험자로 하여 보험에 가입하는 행위", "vi": "Tham gia bảo hiểm với người đã chết là người được bảo hiểm khi ký hợp đồng" }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Là loại cố ý gây sự kiện bảo hiểm (경성사기); ② và ③ là sự kiện bảo hiểm gian dối khi ký hợp đồng"
+            }
+          ]
+        },
+        {
+          "id": "040",
+          "number": "040",
+          "title": "보험사기 계약의 특징",
+          "title_vi": "Đặc điểm của hợp đồng gian lận bảo hiểm",
+          "content": [
+            {
+              "category": "보험사기 계약의 특징",
+              "category_vi": "Đặc điểm của hợp đồng gian lận bảo hiểm",
+              "items": [
+                { "ko": "① 고액·다수 보험계약", "vi": "① Hợp đồng bảo hiểm số tiền lớn, số lượng nhiều" },
+                { "ko": "② 비연고성·자발적 계약", "vi": "② Hợp đồng phi quan hệ, tự nguyện" },
+                { "ko": "③ 부자연스러운 보험계약(재정심사 강화 추세)", "vi": "③ Hợp đồng bảo hiểm không tự nhiên (xu hướng tăng cường kiểm tra tài chính)" },
+                { "ko": "④ 보험사기자들의 개인적 특징(과다 부채, 허영심 등)", "vi": "④ Đặc điểm cá nhân của người gian lận bảo hiểm (nợ quá mức, hư danh, v.v.)" }
+              ]
+            },
+            {
+              "category": "보험사기의 특성",
+              "category_vi": "Đặc tính của gian lận bảo hiểm",
+              "items": [
+                { "ko": "① 복합적인 다른 범죄 유발", "vi": "① Kích động các tội phạm khác phức tạp" },
+                { "ko": "② 입증의 곤란성", "vi": "② Khó khăn trong việc chứng minh" },
+                { "ko": "③ 수법의 다양화·지능화·조직화", "vi": "③ Đa dạng hóa, trí tuệ hóa, tổ chức hóa thủ đoạn" },
+                { "ko": "④ 보험사기 피해의 전가(선의의 계약자 보험료 인상 피해)", "vi": "④ Chuyển giao thiệt hại gian lận bảo hiểm (thiệt hại tăng phí bảo hiểm cho người ký hợp đồng thiện chí)" },
+                { "ko": "⑤ 죄의식의 부재", "vi": "⑤ Thiếu ý thức tội lỗi" }
+              ]
+            },
+            {
+              "category": "보험사기의 사회적 피해",
+              "category_vi": "Thiệt hại xã hội của gian lận bảo hiểm",
+              "items": [
+                { "ko": "① 보험제도 존립기반에 대한 위협 (보험 가입에 부당한 인상, 특정 상품 판매 제한 등)", "vi": "① Đe dọa nền tảng tồn tại của hệ thống bảo hiểm (ấn tượng bất công khi tham gia bảo hiểm, hạn chế bán một số sản phẩm, v.v.)" },
+                { "ko": "② 생명존중 가치관 파괴", "vi": "② Phá hủy quan niệm tôn trọng sinh mạng" },
+                { "ko": "③ 모방범죄 및 동조행위 증가", "vi": "③ Gia tăng tội phạm mô phỏng và hành vi đồng lõa" },
+                { "ko": "④ 보험료의 인상 초래", "vi": "④ Gây tăng phí bảo hiểm" },
+                { "ko": "⑤ 공보험료의 인상 초래", "vi": "⑤ Gây tăng phí bảo hiểm công" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험사기 계약의 특징에 해당하지 않는 것은?",
+              "question_vi": "Trong các mục sau, mục nào KHÔNG phải là đặc điểm của hợp đồng gian lận bảo hiểm?",
+              "options": [
+                { "no": 1, "ko": "고액계약과 다수의 계약", "vi": "Hợp đồng số tiền lớn và hợp đồng số lượng nhiều" },
+                { "no": 2, "ko": "자발성 계약", "vi": "Hợp đồng tự nguyện" },
+                { "no": 3, "ko": "연고성 계약", "vi": "Hợp đồng có quan hệ" }
+              ],
+              "answer": 3,
+              "answer_vi": "③ - Hợp đồng gian lận thường là hợp đồng phi quan hệ (비연고성), không phải hợp đồng có quan hệ"
+            }
+          ]
+        },
+        {
+          "id": "041",
+          "number": "041",
+          "title": "보험사기 방지 활동",
+          "title_vi": "Hoạt động phòng chống gian lận bảo hiểm",
+          "content": [
+            {
+              "category": "방지 활동 기관 및 역할",
+              "category_vi": "Cơ quan và vai trò hoạt động phòng chống",
+              "items": [
+                { "ko": "경찰청 → 보험범죄수사협의회 (전문수사팀+금융감독원, 생·손보험사, 보험회사)", "vi": "Sở cảnh sát → Hội đồng điều tra tội phạm bảo hiểm (Đội điều tra chuyên nghiệp + FSS, công ty bảo hiểm nhân thọ & phi nhân thọ, công ty bảo hiểm)" },
+                { "ko": "금융감독원 → 보험사기인지시스템(IFAS) (건강보험심사평가원 및 의료기관의 정보 공유)", "vi": "FSS (Ủy ban Giám sát Tài chính) → Hệ thống nhận biết gian lận bảo hiểm (IFAS) (chia sẻ thông tin với HIRA và các cơ sở y tế)" },
+                { "ko": "금융감독원, 건강보험공단, 생·손보험사 → 공·민영보험 공동조사 협의회(2021년)", "vi": "FSS, NHIS, công ty bảo hiểm nhân thọ & phi nhân thọ → Hội đồng điều tra chung bảo hiểm công-tư (2021)" },
+                { "ko": "생·손보험사 → 보험사기 취약계층 교육 및 대국민 홍보활동, 전문인력 양성, 중복·과다보험 방지 인수심사 가이드라인 제정", "vi": "Công ty bảo hiểm nhân thọ & phi nhân thọ → Giáo dục tầng lớp dễ bị gian lận bảo hiểm và hoạt động PR công chúng, đào tạo nhân lực chuyên nghiệp, ban hành hướng dẫn thẩm định bảo lãnh phòng chống bảo hiểm trùng lặp/quá mức" },
+                { "ko": "금융감독원, 보험회사 → 보험범죄 신고센터(포상금 지급 등)", "vi": "FSS, công ty bảo hiểm → Trung tâm báo cáo tội phạm bảo hiểm (trả tiền thưởng, v.v.)" },
+                { "ko": "보험회사 → 보험사기특별조사반(SIU), 언더라이팅 강화", "vi": "Công ty bảo hiểm → Đội điều tra đặc biệt gian lận bảo hiểm (SIU), tăng cường bảo lãnh phát hành" }
+              ]
+            },
+            {
+              "category": "법적 근거",
+              "category_vi": "Cơ sở pháp lý",
+              "items": [
+                { "ko": "「보험업법」상 보험사기 행위 금지조항: 보험계약자 등(2008년), 보험업무종사자(2014년) → 보험사기 행위를 명시적으로 금지하는 법률적 체계 마련", "vi": "Điều khoản cấm hành vi gian lận bảo hiểm theo 「Luật Kinh doanh Bảo hiểm」: Người ký hợp đồng bảo hiểm, v.v. (2008), người làm nghề bảo hiểm (2014) → Thiết lập khung pháp lý cấm rõ ràng hành vi gian lận bảo hiểm" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험사기 방지활동을 하는 기관이 아닌 것은?",
+              "question_vi": "Trong các cơ quan sau, cơ quan nào KHÔNG thực hiện hoạt động phòng chống gian lận bảo hiểm?",
+              "options": [
+                { "no": 1, "ko": "경찰청", "vi": "Sở Cảnh sát" },
+                { "no": 2, "ko": "금융감독원", "vi": "Ủy ban Giám sát Tài chính (FSS)" },
+                { "no": 3, "ko": "국세청", "vi": "Cơ quan Thuế Quốc gia" }
+              ],
+              "answer": 3,
+              "answer_vi": "③ - Cơ quan Thuế Quốc gia không tham gia hoạt động phòng chống gian lận bảo hiểm"
+            }
+          ]
+        },
+        {
+          "id": "042",
+          "number": "042",
+          "title": "생명존중과 자살예방",
+          "title_vi": "Tôn trọng sinh mạng và phòng chống tự tử",
+          "content": [
+            {
+              "category": "현황",
+              "category_vi": "Thực trạng",
+              "items": [
+                { "ko": "자살률 OECD 평균보다 2.5배 높음(가장 높은 자살률), 사망원인 5위, 사회적 비용 6.4조원", "vi": "Tỷ lệ tự tử cao hơn 2.5 lần so với mức trung bình OECD (tỷ lệ tự tử cao nhất), nguyên nhân tử vong thứ 5, chi phí xã hội 6.4 nghìn tỷ won" }
+              ]
+            },
+            {
+              "category": "유가족 문제",
+              "category_vi": "Vấn đề gia đình người mất",
+              "items": [
+                { "ko": "매년 10~15만명 자살유가족 발생(국내 인구의 10% 정도인 500만명 이상이 자살유가족으로 분류될 수 있다는 의미)", "vi": "Mỗi năm có 100.000~150.000 gia đình người tự tử (có nghĩa là hơn 5 triệu người, khoảng 10% dân số trong nước, có thể được phân loại là gia đình người tự tử)" },
+                { "ko": "자살유가족의 자살률은 일반인구 자살률보다 23.2배 높음", "vi": "Tỷ lệ tự tử của gia đình người tự tử cao hơn 23.2 lần so với tỷ lệ tự tử của dân số chung" }
+              ]
+            },
+            {
+              "category": "관련 기관",
+              "category_vi": "Cơ quan liên quan",
+              "items": [
+                { "ko": "한국생명존중희망재단 (정부 운영) - 자살예방 프로그램 '보고듣고말하기', 자살예방 '게이트키퍼' 양성, 자살 사망자의 사망 원인 분석, 자살 유족 및 전문인력 지원", "vi": "Quỹ Hy vọng Tôn trọng Sinh mạng Hàn Quốc (do Chính phủ vận hành) - Chương trình phòng chống tự tử 'Nhìn-Nghe-Nói', đào tạo 'Người gác cổng' phòng chống tự tử, phân tích nguyên nhân tử vong của người chết do tự tử, hỗ trợ gia đình người tự tử và nhân lực chuyên nghiệp" },
+                { "ko": "생명보험사회공헌재단 (생명보험 사회공헌위원회) - SOS생명의전화 운영, 자살위험군 지원, 청소년 자살예방, 자살예방 SNS 상담서비스", "vi": "Quỹ Đóng góp Xã hội Bảo hiểm Nhân thọ (Ủy ban Đóng góp Xã hội Bảo hiểm Nhân thọ) - Vận hành đường dây SOS cứu sống, hỗ trợ nhóm nguy cơ tự tử, phòng chống tự tử thanh thiếu niên, dịch vụ tư vấn SNS phòng chống tự tử" }
+              ]
+            },
+            {
+              "category": "게이트키퍼",
+              "category_vi": "Người gác cổng (Gatekeeper)",
+              "items": [
+                { "ko": "주변 사람의 자살위험 신호를 재빨리 인지하여 전문가에게 연계하도록 훈련받은 사람", "vi": "Người được đào tạo để nhanh chóng nhận biết tín hiệu nguy cơ tự tử của người xung quanh và kết nối với chuyên gia" },
+                { "ko": "게이트키퍼 인증 : 한국생명존중희망재단 또는 관할 정신건강복지센터에서 운영하는 양성과정 이수", "vi": "Chứng nhận người gác cổng: hoàn thành chương trình đào tạo do Quỹ Hy vọng Tôn trọng Sinh mạng Hàn Quốc hoặc Trung tâm Phúc lợi Sức khỏe Tâm thần quản lý vận hành" }
+              ]
+            },
+            {
+              "category": "생명보험사회공헌위원회",
+              "category_vi": "Ủy ban Đóng góp Xã hội Bảo hiểm Nhân thọ",
+              "items": [
+                { "ko": "2007년 「생명보험 사회공헌사업 추진을 위한 협약」에 따라 생명보험회사들이 설립(2025년 기준 18개 생명보험회사 가입)", "vi": "Được thành lập bởi các công ty bảo hiểm nhân thọ theo 「Hiệp định thúc đẩy sự nghiệp đóng góp xã hội bảo hiểm nhân thọ」 năm 2007 (tính đến năm 2025 có 18 công ty bảo hiểm nhân thọ tham gia)" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 한국생명존중희망재단에 대한 설명으로 알맞은 것은?",
+              "question_vi": "Trong các giải thích sau về Quỹ Hy vọng Tôn trọng Sinh mạng Hàn Quốc, điều nào ĐÚNG?",
+              "options": [
+                { "no": 1, "ko": "생명보험사회공헌위원회에서 운영한다.", "vi": "Được vận hành bởi Ủy ban Đóng góp Xã hội Bảo hiểm Nhân thọ." },
+                { "no": 2, "ko": "한강교량에 'SOS생명의전화'를 운영한다.", "vi": "Vận hành 'Đường dây điện thoại SOS cứu sống' trên các cầu sông Hàn." },
+                { "no": 3, "ko": "자살자의 사망원인을 다각도로 분석하고 자살 유족 및 전문인력 지원 등의 역할을 수행한다.", "vi": "Phân tích đa chiều nguyên nhân tử vong của người tự tử và thực hiện vai trò hỗ trợ gia đình người tự tử và nhân lực chuyên nghiệp, v.v." }
+              ],
+              "answer": 3,
+              "answer_vi": "③ - Đây là vai trò của Quỹ Hy vọng Tôn trọng Sinh mạng Hàn Quốc (do Chính phủ vận hành)"
+            },
+            {
+              "question_ko": "다음 중 생명보험사회공헌위원회의 활동으로 맞는 것은?",
+              "question_vi": "Trong các hoạt động sau, hoạt động nào của Ủy ban Đóng góp Xã hội Bảo hiểm Nhân thọ là ĐÚNG?",
+              "options": [
+                { "no": 1, "ko": "매년 심리부검 결과보고서를 작성한다.", "vi": "Hàng năm lập báo cáo kết quả giám định tâm lý." },
+                { "no": 2, "ko": "게이트키퍼 교육을 담당하고 있다.", "vi": "Phụ trách đào tạo người gác cổng." },
+                { "no": 3, "ko": "SOS생명의전화를 운영한다.", "vi": "Vận hành đường dây điện thoại SOS cứu sống." }
+              ],
+              "answer": 3,
+              "answer_vi": "③ - SOS생명의전화 (Đường dây điện thoại SOS cứu sống) là do Ủy ban Đóng góp Xã hội Bảo hiểm Nhân thọ vận hành"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "제2편 보험법규",
+      "title_vi": "Phần 2: Luật Bảo hiểm",
+      "topics": [
+        {
+          "id": "043",
+          "number": "043",
+          "title": "보험을 모집할 수 있는 자",
+          "title_vi": "Người có thể tuyển dụng bảo hiểm",
+          "content": [
+            {
+              "category": "모집 가능 주체",
+              "category_vi": "Chủ thể có thể tuyển dụng",
+              "items": [
+                { "ko": "보험설계사: 보험회사 등에 소속되어 계약체결을 중개하는 자", "vi": "Tư vấn viên bảo hiểm: Người thuộc về công ty bảo hiểm, v.v. và làm trung gian ký kết hợp đồng" },
+                { "ko": "보험대리점: 보험회사를 위하여 계약체결을 대리하는 자", "vi": "Đại lý bảo hiểm: Người đại diện ký kết hợp đồng thay mặt công ty bảo hiểm" },
+                { "ko": "보험중개사: 독립적으로 보험계약의 체결을 중개하는 자", "vi": "Người môi giới bảo hiểm: Người độc lập làm trung gian ký kết hợp đồng bảo hiểm" },
+                { "ko": "보험회사의 임원 또는 직원 (대표이사, 사외이사, 감사, 감사위원은 제외)", "vi": "Cán bộ hoặc nhân viên của công ty bảo hiểm (trừ CEO, thành viên HĐQT độc lập, kiểm toán viên, thành viên ủy ban kiểm toán)" }
+              ]
+            },
+            {
+              "category": "실질적 감독주의",
+              "category_vi": "Chủ nghĩa giám sát thực chất",
+              "items": [
+                { "ko": "회사의 설립·경영·해산에 이르기까지 보험사업의 전 과정을 계속적으로 감독하는 보험감독방식(우리나라 + 대부분의 나라 채택)", "vi": "Phương thức giám sát bảo hiểm liên tục giám sát toàn bộ quá trình kinh doanh bảo hiểm từ thành lập, quản lý đến giải thể công ty (được Hàn Quốc và hầu hết các quốc gia áp dụng)" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험모집에 대한 설명으로 맞는 것은?",
+              "question_vi": "Trong các giải thích sau về tuyển dụng bảo hiểm, điều nào ĐÚNG?",
+              "options": [
+                { "no": 1, "ko": "보험모집은 보험계약 체결을 대리하거나 중개하는 것을 말한다.", "vi": "Tuyển dụng bảo hiểm là việc đại diện hoặc làm trung gian ký kết hợp đồng bảo hiểm." },
+                { "no": 2, "ko": "「보험업법」에서는 보험을 모집할 수 있는 자를 제한하지 않는다.", "vi": "「Luật Kinh doanh Bảo hiểm」 không hạn chế người có thể tuyển dụng bảo hiểm." },
+                { "no": 3, "ko": "보험중개사는 보험대리점에 소속되어 보험계약의 체결을 중개한다.", "vi": "Người môi giới bảo hiểm thuộc về đại lý bảo hiểm và làm trung gian ký kết hợp đồng bảo hiểm." }
+              ],
+              "answer": 1,
+              "answer_vi": "① - Định nghĩa chính xác của tuyển dụng bảo hiểm"
+            }
+          ]
+        },
+        {
+          "id": "044",
+          "number": "044",
+          "title": "보험설계사 등록",
+          "title_vi": "Đăng ký tư vấn viên bảo hiểm",
+          "content": [
+            {
+              "category": "법적 근거 및 구분",
+              "category_vi": "Cơ sở pháp lý và phân loại",
+              "items": [
+                { "ko": "「보험업법」 생명보험설계사, 손해보험설계사, 제3보험설계사로 구분", "vi": "「Luật Kinh doanh Bảo hiểm」 Phân loại thành tư vấn viên bảo hiểm nhân thọ, tư vấn viên bảo hiểm phi nhân thọ, tư vấn viên bảo hiểm thứ ba" }
+              ]
+            },
+            {
+              "category": "생명보험설계사 등록 의무화",
+              "category_vi": "Bắt buộc đăng ký tư vấn viên bảo hiểm nhân thọ",
+              "items": [
+                { "ko": "금융위원회에 등록(생명보험협회에 위탁)", "vi": "Đăng ký với Ủy ban Tài chính (ủy thác cho Hiệp hội Bảo hiểm Nhân thọ)" },
+                { "ko": "부당한 모집행위 등을 하는 경우 영업정지 또는 등록취소 가능", "vi": "Có thể đình chỉ kinh doanh hoặc hủy đăng ký nếu thực hiện hành vi tuyển dụng bất chính, v.v." },
+                { "ko": "부정한 방법으로 등록시 1년 이하의 징역 또는 1천만원 이하의 벌금", "vi": "Đăng ký bằng phương pháp gian lận: tù đến 1 năm hoặc phạt tiền đến 10 triệu won" }
+              ]
+            },
+            {
+              "category": "자격(등록신청 유효기간: 1년)",
+              "category_vi": "Tư cách (Thời hạn hiệu lực đơn đăng ký: 1 năm)",
+              "items": [
+                { "ko": "① 교육(20H) + 시험합격 후 등록(각 유효기간 1년) 또는", "vi": "① Đào tạo (20 giờ) + đăng ký sau khi thi đỗ (thời hạn hiệu lực 1 năm mỗi loại) hoặc" },
+                { "ko": "② 3년 이내 1년 이상 종사 경력 + 교육(20H) 이수", "vi": "② Kinh nghiệm làm việc từ 1 năm trở lên trong vòng 3 năm + hoàn thành đào tạo (20 giờ)" }
+              ]
+            },
+            {
+              "category": "등록 절차",
+              "category_vi": "Quy trình đăng ký",
+              "items": [
+                { "ko": "보험회사의 신입 도입 → 시험합격(또는 등록신청일부터 3년 이내 보험 관계 업무에 1년 이상 종사한 경력 있는 자) + 교육이수 → 협회등록신청 → 등록 + 위촉계약 → 보험설계사 활동", "vi": "Tuyển dụng mới của công ty bảo hiểm → Thi đỗ (hoặc có kinh nghiệm làm việc liên quan đến bảo hiểm từ 1 năm trở lên trong vòng 3 năm kể từ ngày đăng ký) + hoàn thành đào tạo → Đăng ký Hiệp hội → Đăng ký + Hợp đồng bổ nhiệm → Hoạt động tư vấn viên bảo hiểm" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 보기의 ( ) 안에 들어갈 숫자의 합으로 맞는 것은?",
+              "question_vi": "Số nào là tổng của các số điền vào chỗ ( ) trong đoạn dưới đây?",
+              "context_ko": "교육 이수 요건을 충족한 자는 ( )년 이내에 시험에 합격하여야 하며, 시험에 합격한 자는 합격일부터 ( )년 이내에 교육 이수 요건을 충족 하여야 한다.",
+              "context_vi": "Người đáp ứng yêu cầu hoàn thành đào tạo phải thi đỗ trong vòng ( ) năm, và người thi đỗ phải đáp ứng yêu cầu hoàn thành đào tạo trong vòng ( ) năm kể từ ngày thi đỗ.",
+              "options": [
+                { "no": 1, "ko": "4", "vi": "4" },
+                { "no": 2, "ko": "2", "vi": "2" },
+                { "no": 3, "ko": "3", "vi": "3" }
+              ],
+              "answer": 2,
+              "answer_vi": "② - 1+1=2 (mỗi thời hạn là 1 năm)"
+            }
+          ]
+        },
+        {
+          "id": "045",
+          "number": "045",
+          "title": "보험설계사가 되지 못하는 자",
+          "title_vi": "Người không thể trở thành tư vấn viên bảo hiểm",
+          "content": [
+            {
+              "category": "결격 사유",
+              "category_vi": "Lý do loại tư cách",
+              "items": [
+                { "ko": "피성년후견인 또는 피한정후견인", "vi": "Người được giám hộ đầy đủ hoặc người được giám hộ giới hạn" },
+                { "ko": "파산선고 후 복권되지 아니한 자", "vi": "Người bị tuyên bố phá sản và chưa được phục hồi quyền" },
+                { "ko": "「보험업법」 또는 「금소법」에 따라 벌금 이상의 형을 선고받고 집행이 끝나거나 면제된 날부터 2년 이내인 자", "vi": "Người bị kết án phạt tiền trở lên theo 「Luật Kinh doanh Bảo hiểm」 hoặc 「Luật Tài chính người tiêu dùng」 và chưa quá 2 năm kể từ ngày chấp hành xong hoặc được miễn trừ" },
+                { "ko": "금고 이상의 형의 집행유예를 선고받고 그 유예기간에 있는 자", "vi": "Người được hưởng án treo với mức hình phạt tù giam trở lên và đang trong thời gian thử thách" },
+                { "ko": "「보험업법」에 따라 등록이 취소된 후 2년 이내인 자", "vi": "Người chưa quá 2 năm kể từ khi bị hủy đăng ký theo 「Luật Kinh doanh Bảo hiểm」" },
+                { "ko": "2회 이상 등록 취소된 후 3년 이내인 자", "vi": "Người chưa quá 3 năm sau khi bị hủy đăng ký từ 2 lần trở lên" },
+                { "ko": "보험료, 대출금, 보험금을 유용한 후 3년이 지나지 아니한 자", "vi": "Người chưa qua 3 năm sau khi lạm dụng phí bảo hiểm, tiền vay, tiền bảo hiểm" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험설계사가 될 수 있는 자를 모두 고르시오.",
+              "question_vi": "Trong các trường hợp sau, hãy chọn tất cả những người CÓ THỂ trở thành tư vấn viên bảo hiểm.",
+              "options": [
+                { "no": "갑", "ko": "파산선고를 받은 자로서 복권되지 않았다.", "vi": "(갑) Người bị tuyên bố phá sản và chưa được phục hồi quyền." },
+                { "no": "을", "ko": "「보험업법」에 따라 등록취소 처분을 2회 이상 받고 40개월이 경과하였다.", "vi": "(을) Bị xử phạt hủy đăng ký từ 2 lần trở lên theo 「Luật Kinh doanh Bảo hiểm」 và đã trải qua 40 tháng." },
+                { "no": "병", "ko": "보험설계사로 10년간 모집활동을 하고 그만둔 지 3년이 되었다.", "vi": "(병) Đã hoạt động tư vấn viên bảo hiểm 10 năm và đã nghỉ được 3 năm." }
+              ],
+              "answer": 3,
+              "answer_vi": "③ 을, 병 - (을) 40개월 > 36개월(3년)이므로 가능; (병)은 결격사유 없음"
+            }
+          ]
+        },
+        {
+          "id": "046",
+          "number": "046",
+          "title": "교차모집제도",
+          "title_vi": "Chế độ tuyển dụng chéo",
+          "content": [
+            {
+              "category": "개념",
+              "category_vi": "Khái niệm",
+              "items": [
+                { "ko": "보험설계사가 소속 보험사 외의 1개의 이종(異種) 보험회사 상품을 판매할 수 있도록 한 제도", "vi": "Chế độ cho phép tư vấn viên bảo hiểm bán sản phẩm của 1 công ty bảo hiểm khác loại ngoài công ty bảo hiểm trực thuộc" },
+                { "ko": "생보 + 손보 / 생보 + 제3보험 / 손보 + 제3보험", "vi": "Bảo hiểm nhân thọ + Bảo hiểm phi nhân thọ / Bảo hiểm nhân thọ + Bảo hiểm thứ ba / Bảo hiểm phi nhân thọ + Bảo hiểm thứ ba" },
+                { "ko": "대리점은 해당 없음", "vi": "Đại lý không áp dụng" }
+              ]
+            },
+            {
+              "category": "교차모집 관련 금지사항",
+              "category_vi": "Các hành vi bị cấm liên quan đến tuyển dụng chéo",
+              "items": [
+                { "ko": "교차모집 보험회사의 금지사항과 교차모집보험설계사의 금지사항 구별", "vi": "Phân biệt các hành vi bị cấm của công ty bảo hiểm tuyển dụng chéo và các hành vi bị cấm của tư vấn viên bảo hiểm tuyển dụng chéo" }
+              ]
+            },
+            {
+              "category": "일사전속주의의 예외",
+              "category_vi": "Ngoại lệ của nguyên tắc một công ty",
+              "items": [
+                { "ko": "보험계약의 종류(생명보험, 손해보험 등)에 따라 해당 보험회사에 등록", "vi": "Đăng ký với công ty bảo hiểm tương ứng tùy theo loại hợp đồng bảo hiểm (bảo hiểm nhân thọ, bảo hiểm phi nhân thọ, v.v.)" }
+              ]
+            }
+          ],
+          "quiz": [
+            {
+              "question_ko": "다음 중 보험설계사 교차모집제도에 대한 설명으로 틀린 것은?",
+              "question_vi": "Trong các giải thích sau về chế độ tuyển dụng chéo của tư vấn viên bảo hiểm, điều nào SAI?",
+              "options": [
+                { "no": 1, "ko": "생명보험회사 또는 손해보험회사에 소속된 보험설계사가 1개의 제3보험 전업으로 영위하는 보험회사를 위하여 모집을 하는 경우도 해당한다.", "vi": "Áp dụng cho cả trường hợp tư vấn viên bảo hiểm thuộc công ty bảo hiểm nhân thọ hoặc phi nhân thọ tuyển dụng cho công ty bảo hiểm chuyên về bảo hiểm thứ ba." },
+                { "no": 2, "ko": "일사전속주의의 일환으로 시행한 제도이다.", "vi": "Là chế độ được thực hiện như một phần của nguyên tắc một công ty." },
+                { "no": 3, "ko": "생명보험회사 소속 보험설계사가 1개의 손해보험회사를 선택하여 보험상품을 판매할 수 있는 제도이다.", "vi": "Là chế độ cho phép tư vấn viên bảo hiểm thuộc công ty bảo hiểm nhân thọ chọn 1 công ty bảo hiểm phi nhân thọ để bán sản phẩm bảo hiểm." }
+              ],
+              "answer": 2,
+              "answer_vi": "② - Chế độ tuyển dụng chéo là NGOẠI LỆ của nguyên tắc một công ty, không phải là một phần của nó"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
