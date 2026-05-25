@@ -62,7 +62,7 @@ export default async function CoursesPage({ searchParams }: { searchParams: Prom
 
         {/* Pagination Controls */}
         {totalPages > 1 && (
-          <div className="flex justify-center items-center gap-4 mt-12">
+          <div className="flex justify-center items-center gap-4" style={{ marginTop: '3rem', paddingBottom: '2rem' }}>
             {validPage > 1 ? (
               <Link href={`/courses?page=${validPage - 1}`} className="btn btn-outline flex items-center gap-1" style={{ padding: '0.5rem 1rem' }}>
                 <ChevronLeft size={16} /> Trang trước
